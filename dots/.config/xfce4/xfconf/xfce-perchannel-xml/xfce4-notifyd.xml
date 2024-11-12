@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-notifyd" version="1.0">
+  <property name="do-slideout" type="bool" value="true"/>
+  <property name="applications" type="empty">
+    <property name="known_applications" type="array">
+      <value type="string" value="Xfce4-notifyd settings"/>
+    </property>
+  </property>
+  <property name="do-not-disturb" type="bool" value="false"/>
+  <property name="theme" type="string" value="Bright"/>
+  <property name="initial-opacity" type="double" value="1"/>
+  <property name="log-max-size-enabled" type="bool" value="true"/>
+  <property name="show-notifications-on" type="string" value="active-monitor"/>
+  <property name="log-level" type="string" value="not-fully-shown"/>
+  <property name="log-level-apps" type="string" value="all"/>
+  <property name="notify-location" type="string" value="bottom-right"/>
+  <property name="date-time-custom-format" type="string" value="%a %H:%M:%S"/>
+  <property name="gauge-ignores-dnd" type="bool" value="true"/>
+  <property name="notification-display-fields" type="string" value="full"/>
+  <property name="expire-timeout-allow-override" type="bool" value="true"/>
+  <property name="expire-timeout-enabled" type="bool" value="true"/>
+  <property name="min-width-enabled" type="bool" value="false"/>
+  <property name="plugin" type="empty">
+    <property name="hide-on-read" type="bool" value="false"/>
+  </property>
+</channel>
