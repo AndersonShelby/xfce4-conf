@@ -1,0 +1,20 @@
+mode_in_use=2
+mode_default=3
+web_url=https://dict.leo.org/esde?search={word}
+show_panel_entry=false
+panel_entry_size=150
+port=2628
+server=dict.org
+dict=* (use all)
+spell_bin=
+spell_dictionary=en_US
+link_color=rgb(0,0,255)
+phonetic_color=rgb(0,99,0)
+error_color=rgb(128,0,0)
+success_color=rgb(16,112,0)
+geometry=327;33;586;360;0;
+speedreader_font=Sans 32
+speedreader_wpm=400
+speedreader_grouping=1
+speedreader_mark_paragraphs=false
+
