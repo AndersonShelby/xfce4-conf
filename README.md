@@ -4,7 +4,7 @@
 
 [![stars](https://img.shields.io/github/stars/AndersonShelby/xfce4-conf?color=C9CBFF&labelColor=1A1B26&style=for-the-badge)](https://github.com/AndersonShelby/xfce4-conf/stargazers)
 [![size](https://img.shields.io/github/repo-size/AndersonShelby/xfce4-conf?color=9ece6a&labelColor=1A1B26&style=for-the-badge)](https://github.com/AndersonShelby/xfce4-conf)
-[![license](https://img.shields.io/github/license/AndersonShelby/xfce4-conf?color=FCA2AA&labelColor=1A1B26&style=for-the-badge)](https://github.com/AndersonShelby/xfce4-conf/blob/master/LICENSE.md)
+[![license](https://img.shields.io/github/license/AndersonShelby/xfce4-conf?color=FCA2AA&labelColor=1A1B26&style=for-the-badge)](https://github.com/AndersonShelby/xfce4-conf/blob/master/LICENSE)
 
 </div>
 
