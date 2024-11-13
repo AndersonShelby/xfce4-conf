@@ -31,6 +31,10 @@
 <details>
   <summary>Desktop preview (screenshot) 💻 </summary>
 
+<<<<<<< HEAD
   ![]https://github.com/AndersonShelby/xfce4-conf/blob/master/media/Screenshot-01.png
+=======
+  ![](https://github.com/AndersonShelby/xfce4-conf/blob/master/media/Screenshot-01.png)
+>>>>>>> d056b4d (Update README.md)
 
 </details>
