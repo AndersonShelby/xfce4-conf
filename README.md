@@ -86,6 +86,7 @@ This project was made possible thanks to the inspiration and contributions of th
 
 - [Yisus7u7](https://github.com/Yisus7u7): For the initial configuration and inspiration behind the project.
 - [LinuxDroidMaster](https://github.com/LinuxDroidMaster): For providing scripts to support the X11 startup process.
+- [HynDuf](https://github.com/HynDuf): For some visual elements.
 
 Thank you both for your invaluable contributions!
 
