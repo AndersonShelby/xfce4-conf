@@ -103,6 +103,7 @@ read -p "Press Enter to continue or Ctrl+C to cancel."
 cd $HOME
 
 # Diretório de destino para o backup
+rm -rf $HOME/Backup
 backup_dir="$HOME/Backup"
 
 # Cria o diretório de backup se ele não existir
