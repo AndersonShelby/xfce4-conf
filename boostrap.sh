@@ -142,14 +142,13 @@ mv ~/xfce4-conf/dots/.themes ~/.themes
 # pasta .oh-my-zsh
 mv ~/xfce4-conf/dots/.oh-my-zsh ~/.oh-my-zsh
 # pasta .local/.local-folder
-mv ~/xfce4-conf/dots/.local-folder
-# Renomear a pasta .local-folder para .local
+mv ~/xfce4-conf/dots/.local-folder ~/.local
 # arquivo .zshrc
 mv ~/xfce4-conf/dots/.zshrc ~/.zshrc
 # pasta rofi
 mv ~/xfce4-conf/configs/rofi ~/.config/rofi
 
-printf "${info}${green}Setup installation complete...${rese}\n"
+printf "${info}${green}Setup installation complete...${reset}\n"
 sleep 3
 clear
 
