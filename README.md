@@ -31,6 +31,6 @@
 <details>
   <summary>Desktop preview (screenshot) 💻 </summary>
 
-  ![](https://github.com/AndersonShelby/xfce4-conf/blob/master/media/Screenshot-01.png)
+  ![](https://github.com/AndersonShelby/xfce4-conf/blob/master/media/Screenshot-02.png)
 
 </details>
