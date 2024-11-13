@@ -49,6 +49,11 @@
   wget https://raw.githubusercontent.com/AndersonShelby/xfce4-conf/master/boostrap.sh && chmod +x boostrap.sh && ./boostrap.sh
   
   ```
+
+> WARNING: Your current configurations will be moved to ~/Backup.
+
+> If you have important settings, they will be saved there for future restoration.
+
  
   ### 2. Download the x11 startup script with:
 
@@ -57,6 +62,10 @@
   wget https://raw.githubusercontent.com/AndersonShelby/xfce4-conf/refs/heads/master/scripts/startdesktop && chmod +x startdesktop
   
   ```
+
+> This script will be responsible for opening the x11 desktop.
+
+> Leave it in an accessible place.
 
   ### 3. Now run the script with:
 
