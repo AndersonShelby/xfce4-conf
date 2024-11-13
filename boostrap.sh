@@ -177,9 +177,11 @@ printf "\n"
 sleep 4
 clear
 
-# Baixando script de inicialização
-printf "${info}${green}Downloading startup script...${reset}"
-sleep 3
+# Remover pasta xfce4-conf
+cd $HOME
+rm -rf $HOME/xfce4-conf
 
+# Fim
+printf "${info}${green}Apparently everything is ready!${reset}"
 
 exit
