@@ -148,6 +148,8 @@ mv ~/xfce4-conf/dots/.local-folder ~/.local
 mv ~/xfce4-conf/dots/.zshrc ~/.zshrc
 # pasta rofi
 mv ~/xfce4-conf/configs/rofi ~/.config/rofi
+# pasta backgrounds
+mv ~/xfce4-conf/backgrounds ~/backgrounds
 
 printf "${info}${green}Setup installation complete...${reset}\n"
 sleep 3
