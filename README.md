@@ -21,6 +21,7 @@
 
 🎨 A custom, lightweight, and visually appealing XFCE4 desktop environment for users who seek both efficiency and style.
 
-![Desktop Preview](link_para_sua_imagem_1)
-![Additional Screenshot](link_para_sua_imagem_2)
+https://github.com/user-attachments/assets/3e58330d-ea4d-4aac-bb7a-bb067418967a
+
+![Additional Screenshot](https://github.com/AndersonShelby/xfce4-conf/blob/master/media/Screenshot-01.png)
 
