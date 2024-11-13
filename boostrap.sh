@@ -95,6 +95,11 @@ mv $PREFIX/share/kvantum/* $PREFIX/share/Kvantum
 
 # Instalando a minhas configs
 printf "${info}${green}Backing up current settings...${reset}\n"
+printf "\n"
+printf "${info}${red}WARNING: ${green}Your current configurations will be moved to ${blue}~/Backup.${reset}\n"
+printf "${info}${green}If you have important settings, they will be saved there for future restoration.\n"
+read -p "Press Enter to continue or Ctrl+C to cancel."
+
 cd $HOME
 
 # Diretório de destino para o backup
@@ -138,6 +143,7 @@ mv ~/xfce4-conf/dots/.themes ~/.themes
 mv ~/xfce4-conf/dots/.oh-my-zsh ~/.oh-my-zsh
 # pasta .local/.local-folder
 mv ~/xfce4-conf/dots/.local-folder
+# Renomear a pasta .local-folder para .local
 # arquivo .zshrc
 mv ~/xfce4-conf/dots/.zshrc ~/.zshrc
 # pasta rofi
