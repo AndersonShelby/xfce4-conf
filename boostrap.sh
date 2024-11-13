@@ -44,14 +44,14 @@ apt install -y firefox
 
 printf "${info}${green}Installing termux-x11 and additional packages...${reset}\n"
 sleep 2
-pkg update
-pkg upgrade
-pkg install x11-repo
-pkg install termux-x11-nightly
-pkg install tur-repo
-pkg install pulseaudio
-pkg install proot-distro
-pkg install git
+pkg update -y
+pkg upgrade -y 
+pkg install x11-repo -y 
+pkg install termux-x11-nightly -y
+pkg install tur-repo -y
+pkg install pulseaudio -y
+pkg install proot-distro -y
+pkg install git -y
 
 printf "${info}${green}boostrap data...${reset}\n"
 sleep 2
