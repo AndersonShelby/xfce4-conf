@@ -137,7 +137,7 @@
         <value type="int" value="43"/>
         <value type="int" value="15"/>
       </property>
-      <property name="position" type="string" value="p=0;x=608;y=32"/>
+      <property name="position" type="string" value="p=0;x=606;y=34"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="size" type="uint" value="35"/>
     </property>
