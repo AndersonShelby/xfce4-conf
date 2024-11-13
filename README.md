@@ -49,12 +49,8 @@
   wget https://raw.githubusercontent.com/AndersonShelby/xfce4-conf/master/boostrap.sh && chmod +x boostrap.sh && ./boostrap.sh
   
   ```
-
+ 
   ### Download the x11 startup script with:
-
-  ```bash
-  
-  Download the x11 startup script with:
 
   ```bash
 
@@ -62,5 +58,16 @@
   
   ```
 
+  ### Now run the script with:
+
+  ```bash
+
+  ./startdesktop
+
+  ```
+
 
 </details>
+
+
+
