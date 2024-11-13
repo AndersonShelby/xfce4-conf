@@ -41,6 +41,8 @@
 <details>
   <summary>Termux 📱</summary>
   ```bash
+  
   wget https://raw.githubusercontent.com/AndersonShelby/xfce4-conf/master/boostrap.sh && chmod +x boostrap.sh && ./boostrap.sh
+  
   ```
 </details>
