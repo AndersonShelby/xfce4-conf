@@ -78,5 +78,15 @@
 
 </details>
 
+---
+
+## Credits 🙌
+
+This project was made possible thanks to the inspiration and contributions of the following developers:
+
+- [Yisus7u7](https://github.com/Yisus7u7): For the initial configuration and inspiration behind the project.
+- [LinuxDroidMaster](https://github.com/LinuxDroidMaster): For providing scripts to support the X11 startup process.
+
+Thank you both for your invaluable contributions!
 
 
