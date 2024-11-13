@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/data/data/com.termux/files/usr/bin/xcompmgr
+Name=Compositor
+Type=Application
+Version=1.0
+X-LXQt-Need-Tray=true

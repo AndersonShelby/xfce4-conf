@@ -1,0 +1,32 @@
+**** BEGIN LOGGING AT Thu Nov  7 20:16:19 2024
+
+Nov 07 20:16:19 *	*** Looking up your hostname
+Nov 07 20:16:19 *	*** Checking Ident
+Nov 07 20:16:20 *	*** No ident response
+Nov 07 20:16:20 *	*** Found your hostname
+**** ENDING LOGGING AT Thu Nov  7 20:16:20 2024
+
+**** BEGIN LOGGING AT Thu Nov  7 20:16:20 2024
+
+Nov 07 20:16:20 *	Welcome to the ARCNet IRC Network, AndersonShelby
+Nov 07 20:16:20 *	Your host is de3.arcnet-irc.org, running version u2.10.12.12.ARCNetV22
+Nov 07 20:16:20 *	This server was created Mon Oct 17 2011 at 09:24:47 CEST
+Nov 07 20:16:20 *	de3.arcnet-irc.org u2.10.12.12.ARCNetV22 dioswkgGx biklmnopstvrD bklov
+Nov 07 20:16:20 *	WHOX WALLCHOPS WALLVOICES USERIP CPRIVMSG CNOTICE SILENCE=15 MODES=6 MAXCHANNELS=20 MAXBANS=30 NICKLEN=15 :are supported by this server
+Nov 07 20:16:20 *	MAXNICKLEN=15 TOPICLEN=160 AWAYLEN=160 KICKLEN=160 CHANNELLEN=200 MAXCHANNELLEN=200 CHANTYPES=#& PREFIX=(ov)@+ STATUSMSG=@+ CHANMODES=b,k,l,imnpstrDd CASEMAPPING=rfc1459 NETWORK=ARCNet :are supported by this server
+Nov 07 20:16:20 *	There are 22 users and 11 invisible on 3 servers
+Nov 07 20:16:20 *	3 :operator(s) online
+Nov 07 20:16:20 *	19 :channels formed
+Nov 07 20:16:21 *	I have 27 clients and 1 servers
+Nov 07 20:16:21 *	Highest connection count: 240 (237 clients)
+Nov 07 20:16:21 *	- de3.arcnet-irc.org Message of the Day - 
+Nov 07 20:16:21 *	FALSE
+Nov 07 20:16:21 *	Type /MOTD to read the AUP before continuing using this service.
+Nov 07 20:16:21 *	The message of the day was last changed: 2013-10-10 13:47
+Nov 07 20:16:21 *	End of /MOTD command.
+Nov 07 20:16:21 *	on 1 ca 1(10000) ft 10(10)
+Nov 07 20:17:10 No channel joined. Try /join #<channel>
+Nov 07 20:17:24 FiSHLiM plugin unloaded
+Nov 07 20:17:24 Checksum plugin unloaded
+**** ENDING LOGGING AT Thu Nov  7 20:17:24 2024
+

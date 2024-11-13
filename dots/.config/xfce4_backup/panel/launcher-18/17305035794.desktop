@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=NodeJS
+Comment=Open NodeJS
+Exec=/data/data/com.termux/files/home/.launchers/NodeJS/launch.sh
+Icon=/data/data/com.termux/files/home/Downloads/nodejs.png
+Path=/data/data/com.termux/files/home/.launchers/NodeJS
+Terminal=true
+StartupNotify=false
+X-XFCE-Source=file:///data/data/com.termux/files/home/Desktop/17271286621.desktop

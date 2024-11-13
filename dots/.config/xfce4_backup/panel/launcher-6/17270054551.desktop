@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Zphisher
+Comment=Phishing tool
+Exec=/data/data/com.termux/files/home/.launchers/Zphisher/launch.sh
+Icon=AppImageLauncher
+Path=/data/data/com.termux/files/home/.launchers/Zphisher
+Terminal=true
+StartupNotify=false

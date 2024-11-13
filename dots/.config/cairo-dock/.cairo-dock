@@ -1,0 +1,9 @@
+[Launch]
+last version=3.4.99.alpha1
+default backend=
+last year=0
+
+ping server=true
+
+[Gui]
+mode=1

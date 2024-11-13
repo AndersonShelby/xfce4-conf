@@ -1,0 +1,1 @@
+../lite-plugins/plugins/language_cpp.lua

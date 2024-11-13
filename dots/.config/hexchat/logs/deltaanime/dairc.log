@@ -1,0 +1,109 @@
+**** BEGIN LOGGING AT Thu Nov  7 20:20:55 2024
+
+Nov 07 20:20:55 *	WALLCHOPS WATCH=128 WATCHOPTS=A SILENCE=15 MODES=12 CHANTYPES=# PREFIX=(qaohv)~&@%+ CHANMODES=beI,kfL,lj,psmntirRcOAQKVCuzNSMTG NETWORK=DaIRC CASEMAPPING=ascii EXTBAN=~,cqnrT ELIST=MNUCT STATUSMSG=~&@%+ :are supported by this server
+Nov 07 20:20:55 *	EXCEPTS INVEX CMDS=KNOCK,MAP,DCCALLOW,USERIP CALLERID=I :are supported by this server
+Nov 07 20:20:55 *	There are 44 users and 89 invisible on 2 servers
+Nov 07 20:20:55 *	13 :operator(s) online
+Nov 07 20:20:55 *	34 :channels formed
+Nov 07 20:20:55 *	I have 87 clients and 1 servers
+Nov 07 20:20:55 *	Current Local Users: 87  Max: 1003
+Nov 07 20:20:55 *	Current Global Users: 133  Max: 1109
+Nov 07 20:20:55 *	- irc.hinoto.dairc.net Message of the Day - 
+Nov 07 20:20:55 *	- 13/10/2011 18:48
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	-                          ,%,_
+Nov 07 20:20:55 *	-                         %%%/,\
+Nov 07 20:20:55 *	-                      _.-"%%|//%
+Nov 07 20:20:55 *	-                   _.' ,.-"  /%%%
+Nov 07 20:20:55 *	-               _.-'_.-" @)    \%%%
+Nov 07 20:20:55 *	-              /.\.'            \%%%
+Nov 07 20:20:55 *	-              \ /    _/  _,     |%%%
+Nov 07 20:20:55 *	-               `"-----"~`\       \%%'   _,--""""-,%%,
+Nov 07 20:20:55 *	-                          )       `""~~`          \%%%,
+Nov 07 20:20:55 *	-                        _/                         \%%%
+Nov 07 20:20:55 *	-                    _.-`/                           |%%,___
+Nov 07 20:20:55 *	-                _.-"   /      ,           ,        ,|%%   .`\
+Nov 07 20:20:55 *	-               /\     /      /             `\       \%'   \ /
+Nov 07 20:20:55 *	-               \ \ _,/      /`~-._         _,`\      \`""~~`
+Nov 07 20:20:55 *	-                `"` /-.,_ /'      `~"----"~    `\     \
+Nov 07 20:20:55 *	-                    \___,'                       \.-"`/
+Nov 07 20:20:55 *	-                                                  `--'
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	-                  o Welcome to hinoto.dairc.net o
+Nov 07 20:20:55 *	-                   o Blame Fran for everything o
+Nov 07 20:20:55 *	-                    o    Powered by Pony!     o
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	-              o Listening on ports: 5999, 6660-6669 o
+Nov 07 20:20:55 *	-                  o Listening on SSL ports: 6697 o
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	- -------Server Guidelines ------------------------------------------
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	-  o No Flooding                               o No Ban Evasion
+Nov 07 20:20:55 *	-  o No DoS Bots                               o No Malicious Botnets
+Nov 07 20:20:55 *	-  o No Hate Groups                            o No Child Pornography
+Nov 07 20:20:55 *	-  o No Spamming                               o Yes Ponies
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	-    For a more indepth explanation of the guidelines type: "/rules"
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	- -------Official Channels ------------------------------------------
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	-  o #deltaanime     - Official Network Chat channel
+Nov 07 20:20:55 *	-  o #support        - Official daIRC Support Channel
+Nov 07 20:20:55 *	-  o #frantech       - Official Frantech VPS Channel
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	- -------Useful Websites --------------------------------------------
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	-  o http://www.dairc.net Official daIRC Website
+Nov 07 20:20:55 *	-  o http://www.datorrents.com daTorrents
+Nov 07 20:20:55 *	-  o http://www.frantech.ca FranTech Hosting
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	- -------Administration ---------------------------------------------
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	-  o Delta       Network Founder / daIRC Owner / Sasquatch
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	-  o Dilt        Network Administrator / King of Idiots / Pony
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	-  o Nebi        Adminserv Operator / Town Yeller
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	-  o Drakkar     Adminserv Operator / Santa / Lord of the Large Pants
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	- -------Disclaimer -------------------------------------------------
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	-  By connecting to this network, you have agreed to allow us to scan
+Nov 07 20:20:55 *	-  your IP address for open ports with our open proxy scanner.
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	-  The daIRC network is a private network that strives to provide
+Nov 07 20:20:55 *	-  its userbase with a measure of confidentiality and privacy. With
+Nov 07 20:20:55 *	-  this in mind, it is a privilege and not a right to connect to the
+Nov 07 20:20:55 *	-  network and the staff reserve the right to disallow access for any
+Nov 07 20:20:55 *	-  and all reasons.
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	-  vHosts may be requested for use on the network by following the
+Nov 07 20:20:55 *	-  instructions available in #support.  Please
+Nov 07 20:20:55 *	-  be aware that all requested vHosts are disabled pending staff
+Nov 07 20:20:55 *	-  approval.  Abuse of the system will result in the removal of
+Nov 07 20:20:55 *	-  all vHost privileges.
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	-  The final solution to any issue handled by a dairc staff member
+Nov 07 20:20:55 *	-  is determined on a case by case basis and is not necessarily
+Nov 07 20:20:55 *	-  influenced by previously concluded events. Please be civil
+Nov 07 20:20:55 *	-  when dealing with any member of the daIRC staff as your
+Nov 07 20:20:55 *	-  manners may in fact influence the outcome. The general rule
+Nov 07 20:20:55 *	-  of thumb is:
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	-       o "Treat others as you wish to be treated." o
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	-  If you believe that your case has been mishandled, please
+Nov 07 20:20:55 *	-  submit a ticket at: http://support.dairc.net Please include 
+Nov 07 20:20:55 *	-  an outline of the event, the parties involved and your reasons 
+Nov 07 20:20:55 *	-  for appealing.
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	- -------End Of MOTD ------------------------------------------------
+Nov 07 20:20:55 *	- 
+Nov 07 20:20:55 *	End of /MOTD command.
+Nov 07 20:20:55 *	AndersonShelby sets mode +i on AndersonShelby
+Nov 07 20:20:55 *	AndersonShelby sets mode +w on AndersonShelby
+Nov 07 20:20:55 *	AndersonShelby sets mode +x on AndersonShelby
+Nov 07 20:21:46 *	#frantech :You need a registered nick to join that channel.
+Nov 07 20:21:52 *	#frantech :You need a registered nick to join that channel.
+Nov 07 20:21:56 *	#frantech :You need a registered nick to join that channel.

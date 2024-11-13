@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Powermenu
+Comment=
+Exec=/data/data/com.termux/files/home/.config/rofi/powermenu/type-1/powermenu.sh
+Icon=/data/data/com.termux/files/home/Downloads/Menu.svg
+Path=
+Terminal=false
+StartupNotify=false

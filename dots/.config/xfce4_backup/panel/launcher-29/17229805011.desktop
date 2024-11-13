@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Kali Terminal
+Exec=/data/data/com.termux/files/usr/bin/start_nethunter
+Icon=/data/data/com.termux/files/home/.icons/icon_kali.png
+Terminal=true
+Type=Application
+Comment=Open a kali terminal
+Path=/data/data/com.termux/files/usr/bin
+StartupNotify=false
+X-XFCE-Source=file:///data/data/com.termux/files/home/Desktop/start_nethunter.desktop

@@ -1,0 +1,1 @@
+return { path = "/data/data/com.termux/files/home", documents = {["views"]={[1]={["filename"]=".config/lite-xl/init.lua",["scroll"]={["y"]=0,["x"]=0},["text"]=false,["active"]=true,["type"]="doc",["selection"]={[1]=13,[2]=35,[3]=13,[4]=35}}},["type"]="leaf",["active_view"]=1}, directories = {} }

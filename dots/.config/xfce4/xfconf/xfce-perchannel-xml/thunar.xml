@@ -8,7 +8,7 @@
   <property name="misc-exec-shell-scripts-by-default" type="bool" value="true"/>
   <property name="misc-file-size-binary" type="bool" value="false"/>
   <property name="last-location-bar" type="string" value="ThunarLocationButtons"/>
-  <property name="last-menubar-visible" type="bool" value="false"/>
+  <property name="last-menubar-visible" type="bool" value="true"/>
   <property name="last-window-width" type="int" value="697"/>
   <property name="last-window-height" type="int" value="398"/>
   <property name="last-window-maximized" type="bool" value="false"/>
@@ -18,14 +18,14 @@
   <property name="last-show-hidden" type="bool" value="true"/>
   <property name="misc-highlighting-enabled" type="bool" value="false"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
-  <property name="last-details-view-column-widths" type="string" value="50,50,135,50,50,94,50,50,226,50,50,72,50,504"/>
+  <property name="last-details-view-column-widths" type="string" value="50,50,135,50,50,392,50,50,258,50,50,80,50,504"/>
   <property name="last-toolbar-item-order" type="string" value="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17"/>
   <property name="last-toolbar-visible-buttons" type="string" value="0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,1,1"/>
   <property name="misc-thumbnail-draw-frames" type="bool" value="false"/>
   <property name="misc-folders-first" type="bool" value="true"/>
   <property name="misc-directory-specific-settings" type="bool" value="false"/>
   <property name="misc-show-delete-action" type="bool" value="false"/>
-  <property name="last-details-view-visible-columns" type="string" value="THUNAR_COLUMN_DATE_MODIFIED,THUNAR_COLUMN_NAME,THUNAR_COLUMN_SIZE,THUNAR_COLUMN_TYPE"/>
+  <property name="last-details-view-visible-columns" type="string" value="THUNAR_COLUMN_DATE_MODIFIED,THUNAR_COLUMN_LOCATION,THUNAR_COLUMN_NAME,THUNAR_COLUMN_SIZE,THUNAR_COLUMN_TYPE"/>
   <property name="misc-change-window-icon" type="bool" value="true"/>
   <property name="misc-image-preview-mode" type="string" value="THUNAR_IMAGE_PREVIEW_MODE_EMBEDDED"/>
   <property name="misc-text-beside-icons" type="bool" value="false"/>

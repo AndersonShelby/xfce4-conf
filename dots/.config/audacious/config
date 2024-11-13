@@ -1,0 +1,56 @@
+
+[audacious]
+equalizer_preamp=0.96
+generic_title_format=${?artist:${artist} - }${title}
+shuffle=TRUE
+
+[audgui]
+filesel_path=/data/data/com.termux/files/home/Music/Músicas
+
+[audqt]
+icon_theme=audacious-flat-dark
+theme=dark
+
+[history]
+entry0=https://www.youtube.com/watch?v=IHrC0bw3y_8
+entry1=https://www.myinstants.com/instant/setembro-vai-entrar-o-grosso-lula-68611/embed/
+entry2=https://www.myinstants.com/pt/instant/setembro-vai-entrar-o-grosso-lula-68611/?utm_source=copy&utm_medium=share
+entry3=https://soundcloud.com/hannah-pineda-529248785/dark-beach-pastel-ghost-slowed-and-reverb
+entry4=https://open.spotify.com/track/1H5PVxswRh4KpLoW5o78VJ?si=GDk2zTzbSD-16zf3-SujPA
+
+[qtui]
+autoscroll=FALSE
+close_button_visible=FALSE
+column_widths=25,25,275,175,50,175,175,25,100,25,75,275,275,275,75,275,175,75
+entry_count_visible=TRUE
+player_height=375
+player_width=718
+playlist_columns=playing title queued artist album length
+
+[skins]
+always_on_top=TRUE
+analyzer_type=0
+equalizer_x=301
+equalizer_y=0
+mainwin_font=Cascadia Code PL Bold 9
+mainwin_use_bitmapfont=FALSE
+player_x=0
+player_y=0
+playlist_font=Cascadia Code PL Bold 8
+playlist_x=275
+playlist_y=0
+show_remaining_time=TRUE
+skin=/data/data/com.termux/files/usr/share/audacious/Skins/Classic1.3
+twoway_scroll=TRUE
+vis_type=1
+
+[skins-layout]
+albumart-qt=635,244,288,192
+blur_scope-qt=292,116,288,192
+eq_presets=494,232,288,192
+lyrics-qt=494,232,288,192
+playlist-manager-qt=541,233,288,192
+qt-spectrum=0,556,533,128
+search-tool-qt=494,232,288,192
+song-info-qt=494,232,288,192
+vumeter-qt=0,342,288,192

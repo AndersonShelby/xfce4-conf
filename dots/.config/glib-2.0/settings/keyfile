@@ -1,0 +1,39 @@
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=182
+sort-column='name'
+sort-directories-first=false
+sort-order='descending'
+type-format='category'
+window-position=(188, 110)
+window-size=(904, 450)
+
+[org/gnome/file-roller/listing]
+show-path=false
+name-column-width=250
+sort-method='name'
+sort-type='ascending'
+list-mode='as-folder'
+
+[org/gnome/file-roller/ui]
+window-width=508
+window-height=346
+sidebar-width=200
+
+[org/gtk/settings/color-chooser]
+selected-color=(true, 1.0, 1.0, 1.0, 0.0)
+custom-colors=[(1.0, 1.0, 1.0, 0.070470000000000005), (0.0, 0.0, 0.0, 0.0), (1.0, 1.0, 1.0, 0.0), (0.5, 0.5, 0.5, 1.0), (0.0516, 0.0516, 0.059999999999999998, 0.77000000000000002), (1.0, 1.0, 1.0, 0.080000000000000002), (1.0, 1.0, 1.0, 0.070469798657718116), (0.12941176470588237, 0.12941176470588237, 0.12941176470588237, 0.050335570469798654)]
+
+[org/gnome/file-roller/dialogs/extract]
+skip-newer=false
+recreate-folders=true
+
+[org/gnome/file-roller/dialogs/new]
+encrypt-header=false
+expand-options=false
+volume-size=0
+default-extension='.tar.gz'

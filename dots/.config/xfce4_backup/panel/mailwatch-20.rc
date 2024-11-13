@@ -1,0 +1,20 @@
+[mailwatch-plugin]
+click_command=
+new_messages_command=
+count_changed_command=
+normal_icon=mail-mark-unread
+new_mail_icon=mail-meeting-request-reply
+log_lines=200
+show_log_status=true
+auto_open_online_doc=false
+
+[mailwatch]
+nmailboxes=1
+mailbox0=gmail
+mailbox_name0=Yisus messages
+
+[mailbox0]
+username=jesuspixel5@gmail.com
+password=1096212877
+timeout=600
+
