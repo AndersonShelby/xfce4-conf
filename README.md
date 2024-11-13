@@ -42,7 +42,7 @@
   <summary>Termux 📱</summary>
   
   
-  ### Download and run the installation script with:
+  ### 1. Download and run the installation script with:
   
   ```bash
   
@@ -50,7 +50,7 @@
   
   ```
  
-  ### Download the x11 startup script with:
+  ### 2. Download the x11 startup script with:
 
   ```bash
 
@@ -58,7 +58,7 @@
   
   ```
 
-  ### Now run the script with:
+  ### 3. Now run the script with:
 
   ```bash
 
