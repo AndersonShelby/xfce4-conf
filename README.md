@@ -42,6 +42,8 @@
   <summary>Termux 📱</summary>
   
   
+  ### Download and run the installation script with:
+  
   ```bash
   
   wget https://raw.githubusercontent.com/AndersonShelby/xfce4-conf/master/boostrap.sh && chmod +x boostrap.sh && ./boostrap.sh
