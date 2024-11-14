@@ -54,7 +54,7 @@
 
 > WARNING: Your current configurations will be moved to ~/Backup.
 
-> If you have important settings, they will be saved there for future restoration.
+> Note: If you have important settings, they will be saved there for future restoration.
 
  
   ### 2. Download the x11 startup script with:
@@ -65,9 +65,9 @@
   
   ```
 
-> This script will be responsible for opening the x11 desktop.
+> Note: This script will be responsible for opening the x11 desktop.
 
-> Leave it in an accessible place.
+> Note: Leave it in an accessible place.
 
   ### 3. Now run the script with:
 
@@ -77,6 +77,9 @@
 
   ```
 
+> Note: You need to have Termux-x11 installed.
+
+> Note: This should launch x11 with your desktop environment!
 
 </details>
 
