@@ -110,7 +110,7 @@ backup_dir="$HOME/Backup"
 mkdir -p "$backup_dir"
 
 # Lista de pastas a serem movidas
-folders=("$HOME/.config" "$HOME/.icons" "$HOME/.themes" "$HOME/.local" "$HOME/.oh-my-zsh")
+folders=("$HOME/.config" "$HOME/.icons" "$HOME/.themes" "$HOME/.local")
 
 # Move cada pasta para o diretório de backup, caso ela exista
 for folder in "${folders[@]}"; do
@@ -141,15 +141,17 @@ mv ~/xfce4-conf/dots/.icons ~/.icons
 # pasta .themes
 mv ~/xfce4-conf/dots/.themes ~/.themes
 # pasta .oh-my-zsh
-mv ~/xfce4-conf/dots/.oh-my-zsh ~/.oh-my-zsh
+# mv ~/xfce4-conf/dots/.oh-my-zsh ~/.oh-my-zsh
 # pasta .local/.local-folder
 mv ~/xfce4-conf/dots/.local-folder ~/.local
 # arquivo .zshrc
-mv ~/xfce4-conf/dots/.zshrc ~/.zshrc
+# mv ~/xfce4-conf/dots/.zshrc ~/.zshrc
 # pasta rofi
 mv ~/xfce4-conf/configs/rofi ~/.config/rofi
 # pasta backgrounds
 mv ~/xfce4-conf/backgrounds ~/backgrounds
+# Icones adicionais
+mv ~/xfce4-conf/dots/Pictures/icons ~/Pictures/icons
 
 printf "${info}${green}Setup installation complete...${reset}\n"
 sleep 3
