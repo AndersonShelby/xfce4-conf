@@ -1,5 +1,7 @@
 <h1 align="center"> ━━━━━━  ❖  ━━━━━━ </h1>
 
+![](https://github.com/AndersonShelby/xfce4-conf/blob/master/media/logos/logo.svg)
+
 <div align="center">
 
 [![stars](https://img.shields.io/github/stars/AndersonShelby/xfce4-conf?color=C9CBFF&labelColor=1A1B26&style=for-the-badge)](https://github.com/AndersonShelby/xfce4-conf/stargazers)
