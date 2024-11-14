@@ -48,7 +48,7 @@
   
   ```bash
   
-  wget https://raw.githubusercontent.com/AndersonShelby/xfce4-conf/master/boostrap.sh && chmod +x boostrap.sh && ./boostrap.sh
+  wget https://raw.githubusercontent.com/AndersonShelby/xfce4-conf/refs/heads/master/install.sh && chmod +x install.sh && ./install.sh
   
   ```
 
