@@ -187,7 +187,7 @@
 
   ```bash
 
-  pacman -S wget
+  sudo pacman -S wget
 
   ```
 
