@@ -98,6 +98,8 @@
 
   ```
 
+  > Note: Updates and upgrades Termux packages, installs the X11 repository, the nightly version of Termux-X11, PulseAudio for sound management, and Proot-Distro for managing Linux distributions in Termux.
+
   ### 2. Install Arch Linux with:
 
   ```bash
@@ -106,6 +108,8 @@
 
   ```
 
+  > Note: Installs the Arch Linux distribution in Termux using Proot-Distro.
+
   ### 3. Log into Arch with:
 
   ```bash
@@ -113,6 +117,8 @@
   proot-distro login archlinux
 
   ```
+
+  > Note: Logs into the installed Arch Linux distribution in Termux using Proot-Distro.
 
   ### 4. Update the repositories and install sudo with:
 
@@ -125,6 +131,15 @@
 
   ```
 
+  > Note: pacman -Sy: Updates the package database to sync with the latest available versions.
+
+  > Note: pacman -Syu: Fully updates the system by syncing the database and upgrading all installed packages.
+
+  > Note: pacman -S sudo: Installs the sudo package, allowing users to execute commands with administrative privileges.
+
+
+
+
   ### 5. Add a new user and set a password with:
 
   ```bash
@@ -134,6 +149,8 @@
 
   ```
 
+  > Note: Creates a new user shelby with a home directory, adds them to the wheel group for administrative privileges, and sets their password.
+
   ### 6. Give sudo permissions to the user with:
 
   ```bash
@@ -142,7 +159,8 @@
 
   ```
 
-  > Note: This will open the /etc/sudoers file with nano.
+  > Note: This will open the /etc/sudoers file with nano, paste the line below.
+
 
   ```bash
 
@@ -150,6 +168,10 @@
   shelby ALL=(ALL) ALL
 
   ```
+
+  > Note: Adds a line to the sudoers file, granting the user shelby permission to run all commands as any user with administrative privileges using sudo.
+
+  > Note: You put it under the root user line.
 
   ### 7. Log in to the shelby user with:
 
@@ -159,6 +181,8 @@
 
   ```
 
+  > Note: Switches to the user shelby, logging into their account.
+
   ### 8. Now download wget and the installation script with:
 
   ```bash
@@ -167,7 +191,7 @@
 
   ```
 
-  > Note: This should install wget.
+  > Note: Installs the wget utility, which is used to download files from the web.
 
   ```bash
 
@@ -175,7 +199,7 @@
 
   ```
 
-  > Note: This should download and run the installation script.
+  > Note: Baixando o script install.sh do repositório, torna-o repetidamentevel com chmod +x e, em seguida, executa-o para executar o processo de instalação.
 
   ### 9. Close Arch, and download the x11 startup script in termux with:
 
@@ -184,6 +208,8 @@
   wget https://raw.githubusercontent.com/AndersonShelby/xfce4-conf/refs/heads/master/scripts/archlinux/X11-launcher/startxfce4_arch.sh && chmod +x startxfce4_arch.sh
 
   ```
+
+  > Note: Download the startxfce4_arch.sh script from the repository, make it executable with chmod +x , allowing it to be used to start the XFCE4 desktop environment on Arch Linux.
 
   ### 10. Start x11 with:
 
@@ -194,6 +220,7 @@
   ```
 
   > After that your environment should be ready!
+
 </details>
 
 ---
