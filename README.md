@@ -199,7 +199,7 @@
 
   ```
 
-  > Note: Baixando o script install.sh do repositório, torna-o repetidamentevel com chmod +x e, em seguida, executa-o para executar o processo de instalação.
+  > Note: Download the install.sh script from the repository, make it repeatable with chmod +x , and then run it to perform the installation process.
 
   ### 9. Close Arch, and download the x11 startup script in termux with:
 
