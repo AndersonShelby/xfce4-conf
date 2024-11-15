@@ -1,6 +1,6 @@
 <h1 align="center"> ━━━━━━  ❖  ━━━━━━ </h1>
 
-![](https://github.com/AndersonShelby/xfce4-conf/blob/master/media/logos/logo-purple.svg)
+![](https://github.com/AndersonShelby/xfce4-conf/blob/master/logos/logo-purple.svg)
 
 <div align="center">
 
