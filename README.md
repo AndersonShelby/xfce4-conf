@@ -83,6 +83,119 @@
 
 </details>
 
+<details>
+  <summary>Arch Linux (Proot Desktop) 📱</summary>
+
+  ### 1. First install some necessary dependencies with:
+
+  ```bash
+
+  pkg update && pkg upgrade -y
+  pkg install x11-repo -y
+  pkg install termux-x11-nightly -y
+  pkg install pulseaudio -y
+  pkg install proot-distro -y
+
+  ```
+
+  ### 2. Install Arch Linux with:
+
+  ```bash
+
+  proot-distro install archlinux
+
+  ```
+
+  ### 3. Log into Arch with:
+
+  ```bash
+
+  proot-distro login archlinux
+
+  ```
+
+  ### 4. Update the repositories and install sudo with:
+
+  ```bash
+
+  pacman -Sy
+  pacman -Syu
+
+  pacman -S sudo
+
+  ```
+
+  ### 5. Add a new user and set a password with:
+
+  ```bash
+
+  useradd -m -G wheel shelby
+  passwd shelby
+
+  ```
+
+  ### 6. Give sudo permissions to the user with:
+
+  ```bash
+
+  nano /etc/sudoers
+
+  ```
+
+  > Note: This will open the /etc/sudoers file with nano.
+
+  ```bash
+
+  # Paste the following line:
+  shelby ALL=(ALL) ALL
+
+  ```
+
+  ### 7. Log in to the shelby user with:
+
+  ```bash
+
+  login shelby
+
+  ```
+
+  ### 8. Now download wget and the installation script with:
+
+  ```bash
+
+  pacman -S wget
+
+  ```
+
+  > Note: This should install wget.
+
+  ```bash
+
+  wget https://raw.githubusercontent.com/AndersonShelby/xfce4-conf/refs/heads/master/scripts/archlinux/install.sh && chmod +x install.sh && ./install.sh
+
+  ```
+
+  > Note: This should download and run the installation script.
+
+  ### 9. Close Arch, and download the x11 startup script in termux with:
+
+  ```bash
+
+  wget https://raw.githubusercontent.com/AndersonShelby/xfce4-conf/refs/heads/master/scripts/archlinux/X11-launcher/startxfce4_arch.sh && chmod +x startxfce4_arch.sh
+
+  ```
+
+  ### 10. Start x11 with:
+
+  ```bash
+
+  ./startxfce4_arch.sh
+
+  ```
+
+  > After that your environment should be ready!
+</details>
+
 ---
 
 ## Credits 🙌
