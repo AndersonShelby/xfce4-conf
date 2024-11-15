@@ -151,7 +151,7 @@ mv ~/xfce4-conf/configs/rofi ~/.config/rofi
 # pasta backgrounds
 mv ~/xfce4-conf/backgrounds ~/backgrounds
 # Icones adicionais
-mv ~/xfce4-conf/dots/Pictures/icons ~/Pictures/icons
+mv ~/xfce4-conf/icons ~/Pictures/icons
 
 printf "${info}${green}Setup installation complete...${reset}\n"
 sleep 3
