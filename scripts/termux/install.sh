@@ -42,6 +42,7 @@ apt update
 apt install -y xfce4 xfce4-goodies termux-desktop-xfce breeze-cursor-theme kvantum ttf-microsoft-cascadia audacious leafpad pavucontrol-qt hexchat geany synaptic 
 apt install -y firefox
 
+clear # Limpar terminal
 printf "${info}${green}Installing termux-x11 and additional packages...${reset}\n"
 sleep 2
 pkg update -y
@@ -53,6 +54,7 @@ pkg install pulseaudio -y
 pkg install proot-distro -y
 pkg install git -y
 
+clear # Limpar terminal
 printf "${info}${green}boostrap data...${reset}\n"
 sleep 2
 rm -rf $HOME/.backup
@@ -61,6 +63,7 @@ mv $HOME/.config $HOME/.backup
 mv $HOME/.vnc $HOME/.backup
 cd $HOME
 
+clear # Limpar terminal
 printf "${info}${green}Downloading wallpapers and xstartup...${reset}\n"
 sleep 2
 wget https://github.com/Yisus7u7/termux-desktop-lxqt/releases/download/data/termux_desktop_lxqt_data.tar.xz
@@ -71,6 +74,7 @@ wget https://github.com/Yisus7u7/termux-desktop-xfce/releases/download/desktop-5
 tar -xvf data.tar.xz
 rm data.tar.xz
 
+clear # Limpar terminal
 printf "${info}${green}setup folders...${reset}\n"
 
 sleep 2
@@ -93,6 +97,7 @@ cd $HOME
 
 mv $PREFIX/share/kvantum/* $PREFIX/share/Kvantum
 
+clear # Limpar terminal
 # Instalando a minhas configs
 printf "${info}${green}Backing up current settings...${reset}\n"
 printf "\n"
@@ -126,6 +131,7 @@ printf "${info}${green}Backup completed.${reset}\n"
 sleep 3
 clear
 
+clear # Limpar terminal
 # Instalando config
 printf "${info}${green}Installing configuration...${reset}\n"
 cd $HOME
@@ -155,7 +161,7 @@ mv ~/xfce4-conf/icons ~/Pictures/icons
 
 printf "${info}${green}Setup installation complete...${reset}\n"
 sleep 3
-clear
+clear # Limpar terminal
 
 # configuração opcional
 cd $HOME
