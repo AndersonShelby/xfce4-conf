@@ -41,7 +41,7 @@
 
 ## Installation ⚙️
 <details>
-  <summary>Termux 📱</summary>
+  <summary>Termux (Native Desktop)📱</summary>
   
   
   ### 1. Download and run the installation script with:
