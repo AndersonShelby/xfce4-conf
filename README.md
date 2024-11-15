@@ -193,6 +193,7 @@
 
   > Note: Installs the wget utility, which is used to download files from the web.
 
+  > Note: If you get any sudo related errors, you can try using `echo "your_password" | sudo -S pacman -S wget`
   ```bash
 
   wget https://raw.githubusercontent.com/AndersonShelby/xfce4-conf/refs/heads/master/scripts/archlinux/install.sh && chmod +x install.sh && ./install.sh
