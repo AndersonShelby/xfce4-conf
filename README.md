@@ -48,7 +48,7 @@
   
   ```bash
   
-  wget https://raw.githubusercontent.com/AndersonShelby/xfce4-conf/refs/heads/master/install.sh && chmod +x install.sh && ./install.sh
+  wget https://raw.githubusercontent.com/AndersonShelby/xfce4-conf/refs/heads/master/scripts/termux/install.sh && chmod +x install.sh && ./install.sh
   
   ```
 
@@ -61,7 +61,7 @@
 
   ```bash
 
-  wget https://raw.githubusercontent.com/AndersonShelby/xfce4-conf/refs/heads/master/scripts/startdesktop && chmod +x startdesktop
+  wget https://raw.githubusercontent.com/AndersonShelby/xfce4-conf/refs/heads/master/scripts/termux/X11-launchers/startx_native && chmod +x startx_native
   
   ```
 
@@ -73,7 +73,7 @@
 
   ```bash
 
-  ./startdesktop
+  ./startx_native
 
   ```
 
