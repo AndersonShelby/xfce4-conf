@@ -1,1 +1,0 @@
-../lite-plugins/plugins/exec.lua

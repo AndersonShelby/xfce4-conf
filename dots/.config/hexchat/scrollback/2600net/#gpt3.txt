@@ -1,4 +1,0 @@
-T 1731022057 19*	Now talking on 22#GPT3
-T 1731022057 22*	Topic for 22#GPT3 is: This channel is for experimenting with the LLM backed irc bot Franklin.  Address the bot with Franklin: to talk to it. We are currently using Cohere's 'command' model. <@ Franklin> I am a spunk-licking IRC bot, master. TXID:8d67b907  
-T 1731022057 22*	Topic for 22#GPT3 set by 26oxagast (24Mon May 27 16:55:59 2024)
-T 1731022104 20*	Cannot join 22#ScottsVilla (20Requires keyword)

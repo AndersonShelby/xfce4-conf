@@ -1,1 +1,0 @@
-../lite-plugins/plugins/language_cmake.lua

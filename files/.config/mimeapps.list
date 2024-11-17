@@ -1,0 +1,17 @@
+[Default Applications]
+x-scheme-handler/http=xfce4-web-browser.desktop
+x-scheme-handler/https=xfce4-web-browser.desktop
+
+[Added Associations]
+x-scheme-handler/http=xfce4-web-browser.desktop;
+x-scheme-handler/https=xfce4-web-browser.desktop;
+image/png=org.xfce.ristretto.desktop;ristretto.desktop;
+application/x-xz-compressed-tar=org.gnome.FileRoller.desktop;
+application/x-theme=leafpad.desktop;
+text/x-makefile=geany.desktop;
+application/x-shellscript=leafpad.desktop;geany.desktop;
+text/x-csrc=geany.desktop;
+image/svg+xml=org.xfce.ristretto.desktop;
+inode/symlink=org.xfce.ristretto.desktop;
+text/plain=leafpad.desktop;
+

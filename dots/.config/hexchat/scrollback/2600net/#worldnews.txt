@@ -1,9 +1,0 @@
-T 1731022128 19*	Now talking on 22#WorldNews
-T 1731022128 22*	Topic for 22#WorldNews is: News News News | Users are welcome to run World News bots | ask for help in #help |
-T 1731022128 22*	Topic for 22#WorldNews set by 26r0d3nt (24Sat Aug 12 17:18:14 2017)
-T 1731022160 18<29worldnewsbot18>	[14ABCNews] Argentine prosecutors charge 3 people linked to the death of former One Direction star Liam Payne → https://da.gd/UEjyQD
-T 1731022310 18<29worldnewsbot18>	[04IndependentUK] Trump says his mass deportation plan has ‘no price tag’ as he prepares to boot millions from the country → https://da.gd/a7VhzO
-T 1731022670 18<29worldnewsbot18>	[04IndependentUK] Pastor husband of Mica Miller whose death captivated the nation arrested after ‘assaulting protestor outside church’ → https://da.gd/a4SJHq
-T 1731022961 18<29worldnewsbot18>	[04IndependentUK] Trump attorney told by FBI his phone was targeted by Chinese hackers, report says → https://da.gd/mhY8uI
-T 1731022963 18<29worldnewsbot18>	[04IndependentUK] California governor Gavin Newsom calls special session to prepare fight against Trump measures → https://da.gd/qBtz
-T 1731023405 18<29worldnewsbot18>	[03Google] Israel to buy 25 F-15s, with eyes on long-distance combat punch - Defense News → https://da.gd/GNvBk

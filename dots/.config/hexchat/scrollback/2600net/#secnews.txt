@@ -1,6 +1,0 @@
-T 1731022322 19*	Now talking on 22#secnews
-T 1731022322 22*	Topic for 22#secnews is: public rss feeds #secnews #worldnews in realtime. idle, read, learn, ???, profit! - email each bot's respective owners to recommend additional feeds, use !help for more information.
-T 1731022322 22*	Topic for 22#secnews set by 26r0d3nt (24Mon Feb  5 18:03:24 2024)
-T 1731022431 19*	Now talking on 22#secnews
-T 1731022431 22*	Topic for 22#secnews is: public rss feeds #secnews #worldnews in realtime. idle, read, learn, ???, profit! - email each bot's respective owners to recommend additional feeds, use !help for more information.
-T 1731022431 22*	Topic for 22#secnews set by 26r0d3nt (24Mon Feb  5 18:03:24 2024)

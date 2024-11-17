@@ -1,0 +1,92 @@
+[405399.472] 
+X.Org X Server 1.20.13
+X Protocol Version 11, Revision 0
+[405399.473] Build Operating System: Linux 3.18.71-perf-gb847930 armv7l 
+[405399.473] Current Operating System: Linux localhost 3.18.71-perf-gb847930 #1 SMP PREEMPT Fri Sep 27 14:15:01 CDT 2019 armv7l
+[405399.478] Build Date: 22 October 2021  08:23:18PM
+[405399.478]  
+[405399.478] Current version of pixman: 0.40.0
+[405399.478] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[405399.478] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[405399.478] (==) Log file: "/data/data/com.termux/files/home/.local/share/xorg/Xorg.0.log", Time: Tue Oct 26 10:49:24 2021
+[405399.484] (II) Loader magic: 0x859703b8
+[405399.484] (II) Module ABI versions:
+[405399.484] 	X.Org ANSI C Emulation: 0.4
+[405399.484] 	X.Org Video Driver: 24.1
+[405399.484] 	X.Org XInput driver : 24.1
+[405399.484] 	X.Org Server Extension : 10.0
+[405399.484] (==) Using default built-in configuration (12 lines)
+[405399.484] (==) --- Start of built-in configuration ---
+[405399.484] 	Section "Device"
+[405399.484] 		Identifier	"Builtin Default fbdev Device 0"
+[405399.484] 		Driver	"fbdev"
+[405399.484] 	EndSection
+[405399.484] 	Section "Screen"
+[405399.484] 		Identifier	"Builtin Default fbdev Screen 0"
+[405399.484] 		Device	"Builtin Default fbdev Device 0"
+[405399.484] 	EndSection
+[405399.484] 	Section "ServerLayout"
+[405399.484] 		Identifier	"Builtin Default Layout"
+[405399.485] 		Screen	"Builtin Default fbdev Screen 0"
+[405399.485] 	EndSection
+[405399.485] (==) --- End of built-in configuration ---
+[405399.485] (==) ServerLayout "Builtin Default Layout"
+[405399.485] (**) |-->Screen "Builtin Default fbdev Screen 0" (0)
+[405399.485] (**) |   |-->Monitor "<default monitor>"
+[405399.486] (**) |   |-->Device "Builtin Default fbdev Device 0"
+[405399.486] (==) No monitor specified for screen "Builtin Default fbdev Screen 0".
+	Using a default monitor configuration.
+[405399.486] (==) Not automatically adding devices
+[405399.486] (==) Not automatically enabling devices
+[405399.486] (==) Not automatically adding GPU devices
+[405399.489] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[405399.493] (WW) The directory "/data/data/com.termux/files/usr/share/fonts/misc/" does not exist.
+[405399.493] 	Entry deleted from font path.
+[405399.494] (WW) `fonts.dir' not found (or not valid) in "/data/data/com.termux/files/usr/share/fonts/TTF/".
+[405399.494] 	Entry deleted from font path.
+[405399.494] 	(Run 'mkfontdir' on "/data/data/com.termux/files/usr/share/fonts/TTF/").
+[405399.494] (WW) The directory "/data/data/com.termux/files/usr/share/fonts/OTF/" does not exist.
+[405399.494] 	Entry deleted from font path.
+[405399.494] (WW) The directory "/data/data/com.termux/files/usr/share/fonts/Type1/" does not exist.
+[405399.494] 	Entry deleted from font path.
+[405399.495] (WW) The directory "/data/data/com.termux/files/usr/share/fonts/100dpi/" does not exist.
+[405399.495] 	Entry deleted from font path.
+[405399.495] (WW) The directory "/data/data/com.termux/files/usr/share/fonts/75dpi/" does not exist.
+[405399.495] 	Entry deleted from font path.
+[405399.495] (==) FontPath set to:
+	
+[405399.495] (==) ModulePath set to "/data/data/com.termux/files/usr/lib/xorg/modules"
+[405399.495] (==) |-->Input Device "<default pointer>"
+[405399.495] (==) |-->Input Device "<default keyboard>"
+[405399.495] (==) The core pointer device wasn't specified explicitly in the layout.
+	Using the default mouse configuration.
+[405399.495] (==) The core keyboard device wasn't specified explicitly in the layout.
+	Using the default keyboard configuration.
+[405399.496] (II) LoadModule: "glx"
+[405399.528] (II) Loading /data/data/com.termux/files/usr/lib/xorg/modules/extensions/libglx.so
+[405399.569] (II) Module glx: vendor="X.Org Foundation"
+[405399.569] 	compiled for 1.20.13, module version = 1.0.0
+[405399.569] 	ABI class: X.Org Server Extension, version 10.0
+[405399.569] (II) LoadModule: "fbdev"
+[405399.575] (WW) Warning, couldn't open module fbdev
+[405399.575] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[405399.575] (II) LoadModule: "mouse"
+[405399.576] (WW) Warning, couldn't open module mouse
+[405399.576] (EE) Failed to load module "mouse" (module does not exist, 0)
+[405399.576] (II) LoadModule: "kbd"
+[405399.577] (WW) Warning, couldn't open module kbd
+[405399.577] (EE) Failed to load module "kbd" (module does not exist, 0)
+[405399.577] (EE) No drivers available.
+[405399.577] (EE) 
+Fatal server error:
+[405399.577] (EE) no screens found(EE) 
+[405399.577] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[405399.577] (EE) Please also check the log file at "/data/data/com.termux/files/home/.local/share/xorg/Xorg.0.log" for additional information.
+[405399.577] (EE) 
+[405399.579] (EE) Server terminated with error (1). Closing log file.
