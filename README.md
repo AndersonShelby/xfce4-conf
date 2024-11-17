@@ -80,6 +80,8 @@
 
 > Note: This should launch x11 with your desktop environment!
 
+</details>
+
 ---
 
 ## Credits 🙌
