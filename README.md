@@ -61,7 +61,7 @@
 
   ```bash
 
-  wget https://raw.githubusercontent.com/AndersonShelby/xfce4-conf/refs/heads/master/scripts/termux/X11-launchers/startdesktop && chmod +x startdesktop
+  wget https://raw.githubusercontent.com/AndersonShelby/xfce4-conf/refs/heads/master/scripts/X11-launcher/startdesktop && chmod +x startdesktop
   
   ```
 
