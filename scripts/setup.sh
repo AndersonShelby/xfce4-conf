@@ -138,7 +138,7 @@ fi
     # Removendo files
     rm -rf $HOME/files
 
-    printf "${info}${green}It looks like everything is ready, use ${blue}./startdesktop${reset}${green} to start the desktop.${reset}"
+    printf "${info}${green}It looks like everything is ready, use ${blue}./startdesktop${green} to start the desktop.${reset}\n"
 
 }
 
