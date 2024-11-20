@@ -16,7 +16,6 @@
 
 > Credits: This configuration is initially based on the work of Yisus7u7 and derived specifically from their repository termux-desktop-xfce. Over time, I have customized and adapted it to suit my own needs, but credit goes to Yisus7u7 for the original setup and inspiration.
 
->Warning: This repository is undergoing renovation, I do not recommend using it.
 ---
 
 ## Lightweight and Beautiful XFCE4 Desktop 🎨✨
