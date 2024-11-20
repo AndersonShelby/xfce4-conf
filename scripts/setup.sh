@@ -131,9 +131,6 @@ main() {
     else
 	    printf"${info}${green}Operation canceled.${reset}"
 fi
-    
-    clear
-    download_x11_launcher    
 
     # Removendo files
     rm -rf $HOME/files
