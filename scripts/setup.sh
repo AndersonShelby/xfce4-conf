@@ -69,10 +69,10 @@ installing_xfce4-conf() {
     printf "${info}${green}Installing xfce4-conf...${reset}\n"
     sleep 2
     cd $HOME
-    wget https://github.com/AndersonShelby/xfce4-conf/releases/download/v1.0.0-alpha/XFCE4-Conf.v1.0.0-alpha-Genesis.tar.gz
+    wget https://github.com/AndersonShelby/xfce4-conf/releases/download/1.0.1-Alpha-Genesis/XFCE4-Conf.v1.0.1-Alpha-Genesis.tar.gz
 
     printf "${info}${green}Unpacking dotfiles...${reset}\n"
-    tar -xzf XFCE4-Conf.v1.0.0-alpha-Genesis.tar.gz > /dev/null 2>&1
+    tar -xzf XFCE4-Conf.v1.0.1-Alpha-Genesis.tar.gz > /dev/null 2>&1
 }
 
 environment_setup() {
