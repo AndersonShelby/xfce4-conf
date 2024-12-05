@@ -25,7 +25,7 @@
 <details>
   <summary>Desktop preview (video) 💻</summary>
 
-  https://github.com/user-attachments/assets/3e58330d-ea4d-4aac-bb7a-bb067418967a
+https://github.com/user-attachments/assets/8cdca129-e9b9-438f-b06c-2449fc191600
 
 </details>
 
