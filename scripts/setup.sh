@@ -54,15 +54,23 @@ prepare_environment() {
 install_packages() {
     printf "${info}${green}Installing required packages...${reset}\n"
     sleep 2
+    
+    # Atualiza pacotes e instala wget
     apt update && apt upgrade -y
-    apt install -y wget                                                                  
+    apt install -y wget
+
+    # Remove lista antiga e adiciona a nova fonte de repositórios
+    rm $PREFIX/etc/apt/sources.list.d/termux-desktop-xfce.list
+    wget -P $PREFIX/etc/apt/sources.list.d https://raw.githubusercontent.com/Yisus7u7/termux-desktop-xfce/gh-pages/termux-desktop-xfce.list
+
+    # Habilita repositórios necessários
+    apt install -y x11-repo
     apt update
-    apt install -y xfce4 xfce4-goodies termux-desktop-xfce breeze-cursor-theme kvantum ttf-microsoft-cascadia audacious leafpad pavucontrol-qt hexchat geany synaptic
-    apt install -y firefox
-    pkg update
-    pkg install x11-repo -y
-    pkg install termux-x11-nightly -y
-    pkg install pulseaudio -y
+
+    # Instala XFCE4, Termux-X11 e pacotes adicionais
+    apt install -y xfce4 xfce4-goodies termux-desktop-xfce breeze-cursor-theme kvantum \
+        ttf-microsoft-cascadia audacious leafpad pavucontrol-qt hexchat geany synaptic \
+        firefox termux-x11-nightly pulseaudio
 }
 
 installing_xfce4-conf() {
