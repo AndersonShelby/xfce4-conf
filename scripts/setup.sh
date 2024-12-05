@@ -137,7 +137,7 @@ main() {
     if [[ "$response" == "y" || -z "$response" ]]; then
 	    terminal_conf
     else
-	    printf"${info}${green}Operation canceled.${reset}"
+	    printf "${info}${green}Operation canceled.${reset}"
 fi
 
     # Removendo files
