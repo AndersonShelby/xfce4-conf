@@ -1,0 +1,22 @@
+**** BEGIN LOGGING AT Thu Nov  7 20:39:42 2024
+
+Nov 07 20:39:42 *	Connecting to wcgxt44qnqslxr7dzm62ouwrlb752p3mydsq27vsyq.map.rizon.net (35.247.220.213:6697)
+Nov 07 20:39:43 *	* Subject: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Nov 07 20:39:43 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Nov 07 20:39:43 *	* Subject: /C=US/O=Let's Encrypt/CN=R11
+Nov 07 20:39:43 *	* Issuer: /C=US/O=Internet Security Research Group/CN=ISRG Root X1
+Nov 07 20:39:43 *	* Subject: /CN=irc.rizon.net
+Nov 07 20:39:43 *	* Issuer: /C=US/O=Let's Encrypt/CN=R11
+Nov 07 20:39:43 *	* Certification info:
+Nov 07 20:39:43 *	  Subject:
+Nov 07 20:39:43 *	    CN=irc.rizon.net
+Nov 07 20:39:43 *	  Issuer:
+Nov 07 20:39:43 *	    C=US
+Nov 07 20:39:43 *	    O=Let's Encrypt
+Nov 07 20:39:43 *	    CN=R11
+Nov 07 20:39:43 *	  Public key algorithm: rsaEncryption (4096 bits)
+Nov 07 20:39:43 *	  Sign algorithm sha256WithRSAEncryption
+Nov 07 20:39:43 *	  Valid since Oct 30 20:04:41 2024 GM to Jan 28 20:04:40 2025 GM
+Nov 07 20:39:43 *	* Cipher info:
+Nov 07 20:39:43 *	  Version: TLSv1.3, cipher TLS_AES_256_GCM_SHA384 (256 bits)
+Nov 07 20:39:43 *	Connected. Now logging in.

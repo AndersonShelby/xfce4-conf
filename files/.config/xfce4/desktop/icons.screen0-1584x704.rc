@@ -1,15 +1,35 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[/data/data/com.termux/files/home/Desktop/Deskify]
+[/data/data/com.termux/files/home/Desktop/PunkScript]
+row=1
+col=0
+
+[/data/data/com.termux/files/home/Desktop/main-atualizado-unitilizado.rs]
+row=3
+col=14
+
+[/data/data/com.termux/files/home/Desktop/main.rs]
+row=1
+col=14
+
+[/data/data/com.termux/files/home/Desktop/src-punkengine-backup]
+row=4
+col=14
+
+[/data/data/com.termux/files/home/Desktop/starship.toml]
+row=2
+col=14
+
+[/data/data/com.termux/files/home/Desktop/xfce4-conf]
 row=3
 col=0
 
-[/data/data/com.termux/files/home/Desktop/xfce4-conf]
-row=4
+[/data/data/com.termux/files/home/Desktop/PunkShell]
+row=2
 col=0
 
-[/data/data/com.termux/files/home/Desktop/Logos]
-row=2
+[/data/data/com.termux/files/home/Desktop/logos]
+row=4
 col=0
 

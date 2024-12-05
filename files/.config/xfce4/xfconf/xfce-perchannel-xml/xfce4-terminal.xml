@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <channel name="xfce4-terminal" version="1.0">
-  <property name="color-foreground" type="string" value="#dcdcdc"/>
-  <property name="color-background" type="string" value="#2c2c2c"/>
-  <property name="color-cursor" type="string" value="#dcdcdc"/>
-  <property name="color-palette" type="string" value="#3f3f3f;#705050;#60b48a;#dfaf8f;#9ab8d7;#dc8cc3;#8cd0d3;#dcdcdc;#709080;#dca3a3;#72d5a3;#f0dfaf;#94bff3;#ec93d3;#93e0e3;#ffffff"/>
+  <property name="color-foreground" type="string" value="#ffffff"/>
+  <property name="color-background" type="string" value="#000000"/>
+  <property name="color-cursor" type="string" value=""/>
+  <property name="color-palette" type="string" value="#1F2229;#D41919;#5EBDAB;#FEA44C;#367bf0;#9755b3;#49AEE6;#E6E6E6;#198388;#EC0101;#47D4B9;#FF8A18;#277FFF;#962ac3;#05A1F7;#FFFFFF"/>
   <property name="font-name" type="string" value="JetBrainsMono Nerd Font Mono Bold 10"/>
   <property name="misc-always-show-tabs" type="bool" value="false"/>
   <property name="misc-bell" type="bool" value="false"/>
@@ -28,14 +28,14 @@
   <property name="misc-copy-on-select" type="bool" value="false"/>
   <property name="misc-show-relaunch-dialog" type="bool" value="true"/>
   <property name="misc-rewrap-on-resize" type="bool" value="true"/>
-  <property name="misc-slim-tabs" type="bool" value="true"/>
+  <property name="misc-slim-tabs" type="bool" value="false"/>
   <property name="misc-new-tab-adjacent" type="bool" value="false"/>
   <property name="misc-search-dialog-opacity" type="uint" value="100"/>
   <property name="misc-show-unsafe-paste-dialog" type="bool" value="true"/>
   <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_TRANSPARENT"/>
   <property name="scrolling-lines" type="uint" value="1000"/>
   <property name="title-mode" type="string" value="TERMINAL_TITLE_HIDE"/>
-  <property name="title-initial" type="string" value="Kali - Terminal"/>
+  <property name="title-initial" type="string" value="Terminal"/>
   <property name="command-login-shell" type="bool" value="true"/>
   <property name="font-use-system" type="bool" value="false"/>
   <property name="font-allow-bold" type="bool" value="true"/>
@@ -49,9 +49,9 @@
   <property name="color-bold" type="string" value=""/>
   <property name="color-bold-use-default" type="bool" value="true"/>
   <property name="color-bold-is-bright" type="bool" value="true"/>
-  <property name="color-use-theme" type="bool" value="false"/>
+  <property name="color-use-theme" type="bool" value="true"/>
   <property name="tab-activity-color" type="string" value="#aa0000"/>
-  <property name="background-darkness" type="double" value="0.69999999999999996"/>
+  <property name="background-darkness" type="double" value="0.80000000000000004"/>
   <property name="tab-activity-timeout" type="uint" value="2"/>
   <property name="dropdown-show-borders" type="bool" value="true"/>
   <property name="misc-hyperlinks-enabled" type="bool" value="true"/>

@@ -1,0 +1,102 @@
+{
+	"info": {
+		"relation": {
+			"group": 0,
+			"priority": 1
+		},
+		"common": {
+			"name": "New 0",
+			"folder": "\/data\/data\/com.termux\/files\/home",
+			"connect-timeout": 15,
+			"transmit-timeout": 30,
+			"retry-delay": 6,
+			"retry-limit": 99,
+			"retry-count": 0,
+			"max-connections": 1,
+			"max-upload-speed": 0,
+			"max-download-speed": 0,
+			"timestamp": 1
+		},
+		"category": {
+			"hosts": [
+				".edu",
+				".idv"
+			],
+			"schemes": [
+				"ftps",
+				"magnet"
+			],
+			"file-exts": [
+				"torrent",
+				"metalink"
+			],
+			"active-limit": 3,
+			"finished-limit": 300,
+			"recycled-limit": 300
+		}
+	},
+	"children": [
+		{
+			"info": {
+				"relation": {
+					"group": 72,
+					"priority": 1
+				},
+				"progress": {
+					"complete": 36192677,
+					"total": 36192677,
+					"elapsed": 66,
+					"uploaded": 0,
+					"percent": 100
+				},
+				"common": {
+					"name": "OpenType.zip",
+					"uri": "https:\/\/github.com\/IBM\/plex\/releases\/download\/v6.0.0\/OpenType.zip",
+					"file": "OpenType.zip",
+					"folder": "\/data\/data\/com.termux\/files\/home\/Downloads",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 1,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"log": {
+					"added-time": 1635038506,
+					"completed-time": 1635038572,
+					"messages": [
+						{
+							"string": "Resumable",
+							"type": 2,
+							"time": 1635038507
+						}
+					]
+				},
+				"files": {
+					"list": [
+						{
+							"path": "\/data\/data\/com.termux\/files\/home\/Downloads\/OpenType.zip",
+							"type": 0,
+							"state": 8,
+							"total": 0,
+							"complete": 0
+						}
+					]
+				}
+			},
+			"children": [
+			]
+		}
+	]
+}
+

@@ -1,0 +1,1 @@
+../lite-plugins/plugins/openfilelocation.lua

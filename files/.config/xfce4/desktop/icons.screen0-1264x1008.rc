@@ -1,11 +1,19 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[/data/data/com.termux/files/home/Desktop/NebulaShell]
-row=1
+[/data/data/com.termux/files/home/Desktop/Deskify]
+row=2
 col=0
 
-[/data/data/com.termux/files/home]
+[/data/data/com.termux/files/home/Desktop/Backup]
 row=0
+col=0
+
+[/data/data/com.termux/files/home/Desktop/logos]
+row=3
+col=0
+
+[/data/data/com.termux/files/home/Desktop/xfce4-conf]
+row=1
 col=0
 

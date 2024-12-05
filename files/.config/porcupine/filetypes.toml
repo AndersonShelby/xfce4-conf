@@ -1,0 +1,4 @@
+# Putting filetype configuration into this file overrides Porcupine's default
+# filetype configuration. You can read the default configuration here:
+#
+#    https://github.com/Akuli/porcupine/blob/master/porcupine/default_filetypes.toml

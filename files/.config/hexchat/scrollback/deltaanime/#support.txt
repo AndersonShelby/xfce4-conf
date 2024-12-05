@@ -1,0 +1,3 @@
+T 1731021709 19*	Now talking on 22#support
+T 1731021709 22*	Topic for 22#support is: Welcome to DaIRC's IRC Support Channel! ? vhost ? register ? password | Simply type your question(s) or problem(s) and someone will answer you as soon as he/she can. If you need supports regarding Frantech/BuyVM, please join #frantech.
+T 1731021709 22*	Topic for 22#support set by 26Dilt (24Tue May 29 16:46:33 2012)

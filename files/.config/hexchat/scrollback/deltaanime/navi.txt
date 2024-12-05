@@ -1,0 +1,6 @@
+T 1731021815 23*	28[18Navi28] 30(24navi@services.dairc.net30): 18DaIRC Services Bot
+T 1731021815 23*	28[18Navi28] is a registered nick
+T 1731021815 23*	28[18Navi28] 29services.dairc.net :[DaIRC] Services
+T 1731021815 23*	28[18Navi28] idle 237363:04:10, signon: 23Sat Jan  6 01:19:22
+T 1731021815 23*	28[18Navi28] End of WHOIS list.
+T 1731021831 24*	Ping reply from 18Navi: 240.514 second(s)

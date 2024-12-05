@@ -1,0 +1,119 @@
+**** BEGIN LOGGING AT Thu Nov  7 20:39:43 2024
+
+Nov 07 20:39:43 *	*** Looking up your hostname...
+Nov 07 20:39:43 *	*** Found your hostname
+Nov 07 20:39:43 *	Capabilities supported: away-notify chghost invite-notify multi-prefix sasl userhost-in-names
+Nov 07 20:39:43 *	Capabilities requested: away-notify chghost invite-notify multi-prefix userhost-in-names 
+Nov 07 20:39:43 *	Capabilities acknowledged: away-notify chghost invite-notify multi-prefix userhost-in-names
+Nov 07 20:39:43 *	*** Connected securely via TLSv1.3 TLS_AES_256_GCM_SHA384-256
+Nov 07 20:39:43 *	*** Your host is masked (Rizon-B1F790C7.speednetprovedor.net.br)
+**** ENDING LOGGING AT Thu Nov  7 20:39:43 2024
+
+**** BEGIN LOGGING AT Thu Nov  7 20:39:43 2024
+
+Nov 07 20:39:43 *	Welcome to the Rizon Internet Relay Chat Network AndersonShelby
+Nov 07 20:39:43 *	Your host is hydrogen.rizon.net, running version plexus-4(hybrid-8.1.20)
+Nov 07 20:39:43 *	This server was created Jun 23 2022 at 00:01:36
+Nov 07 20:39:43 *	hydrogen.rizon.net plexus-4(hybrid-8.1.20) CDGNRSUWagilopqrswxyz BCIMNORSabcehiklmnopqstvz Iabehkloqv
+Nov 07 20:39:43 *	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=180 MODES=4 PREFIX=(qaohv)~&@%+ STATUSMSG=~&@%+ EXCEPTS=e INVEX=I NICKLEN=30 NETWORK=Rizon MAXLIST=beI:250 MAXTARGETS=4 :are supported by this server
+Nov 07 20:39:43 *	CHANTYPES=# CHANLIMIT=#:250 CHANNELLEN=50 TOPICLEN=390 CHANMODES=beI,k,l,BCMNORScimnpstz ELIST=CMNTU SAFELIST WATCH=60 AWAYLEN=180 KNOCK NAMESX UHNAMES :are supported by this server
+Nov 07 20:39:43 *	There are 15 users and 9110 invisible on 18 servers
+Nov 07 20:39:43 *	44 :IRC Operators online
+Nov 07 20:39:43 *	7874 :channels formed
+Nov 07 20:39:43 *	I have 9125 clients and 18 servers
+Nov 07 20:39:43 *	Current local users: 9125  Max: 10409
+Nov 07 20:39:43 *	Current global users: 9125  Max: 10409
+Nov 07 20:39:43 *	- hydrogen.rizon.net Message of the Day - 
+Nov 07 20:39:43 *	-          oo                            
+Nov 07 20:39:43 *	- 
+Nov 07 20:39:43 *	- 88d888b. dP d888888b .d8888b. 88d888b. 
+Nov 07 20:39:43 *	- 88'  `88 88    .d8P' 88'  `88 88'  `88 
+Nov 07 20:39:43 *	- 88       88  .Y8P    88.  .88 88    88 
+Nov 07 20:39:43 *	- dP       dP d888888P `88888P' dP    dP
+Nov 07 20:39:43 *	- 
+Nov 07 20:39:43 *	- Rizon Chat Network -- http://rizon.net
+Nov 07 20:39:43 *	- 
+Nov 07 20:39:43 *	- Listening on ports: 6660 - 6669, 7000. SSL: 6697, 9999
+Nov 07 20:39:43 *	- 
+Nov 07 20:39:43 *	- Rules:
+Nov 07 20:39:43 *	- o No spamming or flooding
+Nov 07 20:39:43 *	- o No clones or malicious bots
+Nov 07 20:39:43 *	- o No takeovers
+Nov 07 20:39:43 *	- o No distribution of child pornography
+Nov 07 20:39:43 *	- o Clients must respond to VERSION requests
+Nov 07 20:39:43 *	- o Rizon staff may disconnect clients for any or no reason
+Nov 07 20:39:43 *	- 
+Nov 07 20:39:43 *	- First steps:
+Nov 07 20:39:43 *	- o To register your nick: /msg NickServ HELP
+Nov 07 20:39:43 *	- o To register your channel: /msg ChanServ HELP
+Nov 07 20:39:43 *	- o To get a vHost: /msg HostServ HELP REQUEST
+Nov 07 20:39:43 *	- o For other help with Rizon: /join #help
+Nov 07 20:39:43 *	- 
+Nov 07 20:39:43 *	- Usage of this network is a privilege, not a right. Rizon is a
+Nov 07 20:39:43 *	- transit provider, therefore no person or entity involved with
+Nov 07 20:39:43 *	- *.rizon.net or hydrogen.rizon.net takes any responsibility for
+Nov 07 20:39:43 *	- users' actions. Absolutely no warranty is expressed or implied.
+Nov 07 20:39:43 *	End of /MOTD command.
+Nov 07 20:39:43 *	AndersonShelby sets mode +S on AndersonShelby
+Nov 07 20:39:43 *	AndersonShelby sets mode +i on AndersonShelby
+Nov 07 20:39:43 *	AndersonShelby sets mode +x on AndersonShelby
+Nov 07 20:39:44 *	Received a CTCP VERSION from py-ctcp
+Nov 07 20:39:44 -Global-	[Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+Nov 07 20:39:44 -Global-	[Logon News - Feb 16 2022] First time on Rizon? Be sure to check out our wiki! https://wiki.rizon.net
+Nov 07 20:39:44 -Global-	[Random News - May 07 2013] Looking for a quotes, trivia, or other extra bots? /msg funserv help
+**** BEGIN LOGGING AT Fri Nov  8 22:11:53 2024
+
+Nov 08 22:11:53 *	Welcome to the Rizon Internet Relay Chat Network AndersonShelby
+Nov 08 22:11:53 *	Your host is hydrogen.rizon.net, running version plexus-4(hybrid-8.1.20)
+Nov 08 22:11:53 *	This server was created Jun 23 2022 at 00:01:36
+Nov 08 22:11:53 *	hydrogen.rizon.net plexus-4(hybrid-8.1.20) CDGNRSUWagilopqrswxyz BCIMNORSabcehiklmnopqstvz Iabehkloqv
+Nov 08 22:11:53 *	CALLERID CASEMAPPING=rfc1459 DEAF=D KICKLEN=180 MODES=4 PREFIX=(qaohv)~&@%+ STATUSMSG=~&@%+ EXCEPTS=e INVEX=I NICKLEN=30 NETWORK=Rizon MAXLIST=beI:250 MAXTARGETS=4 :are supported by this server
+Nov 08 22:11:53 *	CHANTYPES=# CHANLIMIT=#:250 CHANNELLEN=50 TOPICLEN=390 CHANMODES=beI,k,l,BCMNORScimnpstz ELIST=CMNTU SAFELIST WATCH=60 AWAYLEN=180 KNOCK NAMESX UHNAMES :are supported by this server
+Nov 08 22:11:53 *	There are 14 users and 9102 invisible on 18 servers
+Nov 08 22:11:53 *	44 :IRC Operators online
+Nov 08 22:11:53 *	7875 :channels formed
+Nov 08 22:11:53 *	I have 9116 clients and 18 servers
+Nov 08 22:11:53 *	Current local users: 9116  Max: 10409
+Nov 08 22:11:53 *	Current global users: 9116  Max: 10409
+Nov 08 22:11:53 *	- hydrogen.rizon.net Message of the Day - 
+Nov 08 22:11:53 *	-          oo                            
+Nov 08 22:11:53 *	- 
+Nov 08 22:11:53 *	- 88d888b. dP d888888b .d8888b. 88d888b. 
+Nov 08 22:11:53 *	- 88'  `88 88    .d8P' 88'  `88 88'  `88 
+Nov 08 22:11:53 *	- 88       88  .Y8P    88.  .88 88    88 
+Nov 08 22:11:53 *	- dP       dP d888888P `88888P' dP    dP
+Nov 08 22:11:53 *	- 
+Nov 08 22:11:53 *	- Rizon Chat Network -- http://rizon.net
+Nov 08 22:11:53 *	- 
+Nov 08 22:11:53 *	- Listening on ports: 6660 - 6669, 7000. SSL: 6697, 9999
+Nov 08 22:11:53 *	- 
+Nov 08 22:11:53 *	- Rules:
+Nov 08 22:11:53 *	- o No spamming or flooding
+Nov 08 22:11:53 *	- o No clones or malicious bots
+Nov 08 22:11:53 *	- o No takeovers
+Nov 08 22:11:53 *	- o No distribution of child pornography
+Nov 08 22:11:53 *	- o Clients must respond to VERSION requests
+Nov 08 22:11:53 *	- o Rizon staff may disconnect clients for any or no reason
+Nov 08 22:11:53 *	- 
+Nov 08 22:11:53 *	- First steps:
+Nov 08 22:11:53 *	- o To register your nick: /msg NickServ HELP
+Nov 08 22:11:53 *	- o To register your channel: /msg ChanServ HELP
+Nov 08 22:11:53 *	- o To get a vHost: /msg HostServ HELP REQUEST
+Nov 08 22:11:53 *	- o For other help with Rizon: /join #help
+Nov 08 22:11:53 *	- 
+Nov 08 22:11:53 *	- Usage of this network is a privilege, not a right. Rizon is a
+Nov 08 22:11:53 *	- transit provider, therefore no person or entity involved with
+Nov 08 22:11:53 *	- *.rizon.net or hydrogen.rizon.net takes any responsibility for
+Nov 08 22:11:53 *	- users' actions. Absolutely no warranty is expressed or implied.
+Nov 08 22:11:53 *	End of /MOTD command.
+Nov 08 22:11:53 *	AndersonShelby sets mode +S on AndersonShelby
+Nov 08 22:11:53 *	AndersonShelby sets mode +i on AndersonShelby
+Nov 08 22:11:53 *	AndersonShelby sets mode +x on AndersonShelby
+Nov 08 22:11:53 *	Received a CTCP VERSION from py-ctcp
+Nov 08 22:11:53 -Global-	[Logon News - Dec 16 2013] Own a large/active channel or plan to get one going? Please read http://s.rizon.net/authline
+Nov 08 22:11:53 -Global-	[Logon News - Feb 16 2022] First time on Rizon? Be sure to check out our wiki! https://wiki.rizon.net
+Nov 08 22:11:53 -Global-	[Random News - May 07 2013] Looking for a quotes, trivia, or other extra bots? /msg funserv help
+Nov 08 22:12:03 FiSHLiM plugin unloaded
+Nov 08 22:12:03 Checksum plugin unloaded
+**** ENDING LOGGING AT Fri Nov  8 22:12:03 2024
+

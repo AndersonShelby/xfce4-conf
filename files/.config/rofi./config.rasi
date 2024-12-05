@@ -1,0 +1,106 @@
+/*******************************************************************************
+ * MACOS SPOTLIGHT LIKE DARK THEME FOR ROFI 
+ * User                 : LR-Tech               
+ * Theme Repo           : https://github.com/lr-tech/rofi-themes-collection
+ *******************************************************************************/
+
+@theme "/dev/null"
+
+* {
+    font:   "Overpass 12";
+
+    bg0:    #1a1b26;
+    bg1:    #20222e;
+    bg2:    #252733;
+
+    fg0:    #c0caf5;
+    fg1:    #c0caf5;
+    fg2:    #b3b9b8;
+
+    accent: #7aa2f7;
+
+    background-color:   transparent;
+    text-color:         @fg0;
+
+    margin:     0;
+    padding:    0;
+    spacing:    0;
+}
+
+window {
+    background-color:   @bg1;
+    location:       center;
+    width:          600;
+    border-radius:  10px;
+}
+
+inputbar {
+    font:       "Roboto 16";
+    background-color: @bg1;
+    border:         2px;
+    border-color:   @accent;
+    border-radius:  10px;
+    padding:    14px 18px;
+    spacing:    12px;
+    children:   [ icon-search, entry ];
+}
+
+icon-search {
+    expand:     false;
+    filename:   "search-symbolic";
+    size: 24px;
+}
+
+icon-search, entry, element-icon, element-text {
+    vertical-align: 0.5;
+}
+
+entry {
+    font:   inherit;
+
+    placeholder         : "Search";
+    placeholder-color   : @fg2;
+}
+
+message {
+    border:             2px 0 0;
+    border-color:       @bg1;
+    background-color:   @bg1;
+}
+
+textbox {
+    padding:    8px 24px;
+}
+
+listview {
+    lines:      8;
+    columns:    1;
+    margin:     6px;
+    fixed-height:   false;
+    border:         1px 0 0;
+    border-color:   @bg1;
+}
+
+element {
+    padding:            14px 18px;
+    spacing:            16px;
+    background-color:   transparent;
+    border-radius:      6px;
+}
+
+element normal active {
+    text-color: @bg2;
+}
+
+element selected normal, element selected active {
+    background-color:   @bg2;
+    text-color:         @fg1;
+}
+
+element-icon {
+    size:   1em;
+}
+
+element-text {
+    text-color: inherit;
+}

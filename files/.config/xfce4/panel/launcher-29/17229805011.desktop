@@ -1,10 +1,10 @@
 [Desktop Entry]
-Name=Kali Terminal
-Exec=/data/data/com.termux/files/usr/bin/nethunter
-Icon=/data/data/com.termux/files/home/.local/share/desktop-icons/icon_kali.png
+Name=Debian
+Exec=/data/data/com.termux/files/usr/bin/debian-launch
+Icon=/data/data/com.termux/files/home/.local/share/desktop-icons/debian.png
 Terminal=true
 Type=Application
-Comment=Open a kali terminal
+Comment=Open Debian terminal
 Path=/data/data/com.termux/files/usr/bin
 StartupNotify=false
 X-XFCE-Source=file:///data/data/com.termux/files/home/Desktop/start_nethunter.desktop

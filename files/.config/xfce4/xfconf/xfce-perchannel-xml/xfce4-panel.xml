@@ -109,14 +109,14 @@
     <property name="dark-mode" type="bool" value="false"/>
     <property name="panel-1" type="empty">
       <property name="autohide-behavior" type="uint" value="1"/>
-      <property name="background-image" type="string" value="file:///data/data/com.termux/files/home/backgrounds/abstract.png"/>
+      <property name="background-image" type="string" value="file:///data/data/com.termux/files/home/backgrounds/wallpaperflare.com_wallpaper(8)%20(copy%201).jpg"/>
       <property name="background-rgba" type="array">
         <value type="double" value="0.14117647058823529"/>
         <value type="double" value="0.12156862745098039"/>
         <value type="double" value="0.19215686274509805"/>
         <value type="double" value="1"/>
       </property>
-      <property name="background-style" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="2"/>
       <property name="enable-struts" type="bool" value="true"/>
       <property name="enter-opacity" type="uint" value="100"/>
       <property name="icon-size" type="uint" value="0"/>
@@ -149,7 +149,7 @@
         <value type="double" value="0.19215686274509805"/>
         <value type="double" value="1"/>
       </property>
-      <property name="background-style" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="2"/>
       <property name="enable-struts" type="bool" value="true"/>
       <property name="icon-size" type="uint" value="0"/>
       <property name="length" type="double" value="1"/>
@@ -168,6 +168,7 @@
       <property name="position" type="string" value="p=0;x=957;y=35"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="size" type="uint" value="35"/>
+      <property name="background-image" type="string" value="file:///data/data/com.termux/files/home/backgrounds/wallpaperflare.com_wallpaper(8)%20(copy%201).jpg"/>
     </property>
     <property name="panel-3" type="empty">
       <property name="background-rgba" type="array">
@@ -176,7 +177,7 @@
         <value type="double" value="0.19215686274509805"/>
         <value type="double" value="1"/>
       </property>
-      <property name="background-style" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="2"/>
       <property name="length" type="double" value="4.5"/>
       <property name="length-adjust" type="bool" value="false"/>
       <property name="plugin-ids" type="array">
@@ -187,6 +188,8 @@
       <property name="position" type="string" value="p=0;x=786;y=35"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="size" type="uint" value="35"/>
+      <property name="autohide-behavior" type="uint" value="1"/>
+      <property name="background-image" type="string" value="file:///data/data/com.termux/files/home/backgrounds/wallpaperflare.com_wallpaper(8)%20(copy%201).jpg"/>
     </property>
   </property>
 </channel>

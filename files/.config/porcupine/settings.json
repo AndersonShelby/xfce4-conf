@@ -1,0 +1,10 @@
+{
+    "pygments_style": "paraiso-dark",
+    "font_family": "Cascadia Code",
+    "directory_tree_projects": [
+        "/data/data/com.termux/files/home/Documents/x11-store",
+        "/data/data/com.termux/files/home/.config/porcupine"
+    ],
+    "default_geometry": "1004x498+60+72",
+    "ttk_theme": "breeze"
+}
