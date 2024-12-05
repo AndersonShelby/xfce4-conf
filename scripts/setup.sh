@@ -77,10 +77,10 @@ installing_xfce4-conf() {
     printf "${info}${green}Installing xfce4-conf...${reset}\n"
     sleep 2
     cd $HOME
-    wget https://github.com/AndersonShelby/xfce4-conf/releases/download/1.0.1-Alpha-Genesis/XFCE4-Conf.v1.0.1-Alpha-Genesis.tar.gz
+    wget https://github.com/AndersonShelby/xfce4-conf/releases/download/v1.0.2-Alpha-Genesis/XFCE4-Conf.v1.0.2-Alpha-Genesis.tar.gz
 
     printf "${info}${green}Unpacking dotfiles...${reset}\n"
-    tar -xzf XFCE4-Conf.v1.0.1-Alpha-Genesis.tar.gz > /dev/null 2>&1
+    tar -xzf XFCE4-Conf.v1.0.2-Alpha-Genesis.tar.gz > /dev/null 2>&1
 }
 
 environment_setup() {
@@ -101,16 +101,6 @@ terminal_conf() {
     [ -f "$HOME/files/.zshrc" ] && cp "$HOME/files/.zshrc" "$HOME/"
 
     printf "${info}${green}Zsh configuration replaced successfully!${reset}\n"
-}
-
-download_x11_launcher() {
-    printf "${info}${green}Downloading x11 startup script...${reset}\n"
-    sleep 2
-    cd $HOME
-    
-    wget https://raw.githubusercontent.com/AndersonShelby/xfce4-conf/refs/heads/master/scripts/X11-launcher/startdesktop
-
-    chmod +x startdesktop
 }
 
 # Função principal
