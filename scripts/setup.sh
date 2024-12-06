@@ -75,10 +75,10 @@ installing_xfce4_conf() {
     cd "$extracted_dir"
 
     # Mover arquivos
-#    mv files/.config $HOME/
-#    mv files/.themes $HOME/
-#    mv files/.icons $HOME/
-#    mv files/.local $HOME/
+#   mv files/.config $HOME/
+#   mv files/.themes $HOME/
+#   mv files/.icons $HOME/
+#   mv files/.local $HOME/
 }
 
 download_x11_launcher() {
@@ -97,7 +97,7 @@ main() {
     clear
     installing_xfce4_conf
     clear
-#    download_x11_launcher
+    download_x11_launcher
     clear
     printf "${success} Setup completed! Use ${blue}./startdesktop${reset} to start the desktop.\n"
 }
