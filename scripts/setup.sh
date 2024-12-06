@@ -7,135 +7,99 @@
 # Date: 11/17/2024
 #
 # Description:
-# This script automates the configuration of the XFCE4 graphical environment,
+# Automates the configuration of the XFCE4 graphical environment
 # offering an optimized and stylish visual experience.
-# Created to facilitate installation and customization in Termux.
-#
-# Copyright:
-# This project is open-source, created with dedication to make
-# the experience in Termux more fluid and enjoyable.
 #==============================================================
 
 # Definindo as cores
 black="\033[0;30m"
 red="\033[0;31m"
-bred="\033[1;31m"
 green="\033[0;32m"
-bgreen="\033[1;32m"
 yellow="\033[0;33m"
-byellow="\033[1;33m"
 blue="\033[0;34m"
-bblue="\033[1;34m"
-purple="\033[0;35m"
-bpurple="\033[1;35m"
 cyan="\033[0;36m"
-bcyan="\033[1;36m"
 white="\033[0;37m"
-nc="\033[00m"    # Cor padrão do terminal
-reset="\033[0m"  # Reset de cores
+reset="\033[0m"
 
-# Definindo "snippets" de status
-ask="${green}[${white}?${green}] ${yellow}"
-success="${yellow}[${white}√${yellow}] ${green}"
-error="${blue}[${white}!${blue}] ${red}"
-info="${yellow}[${white}+${yellow}] ${cyan}"
-info2="${green}[${white}•${green}] ${purple}"
+# Status
+info="${cyan}[+]${reset}"
+success="${green}[✓]${reset}"
+error="${red}[!]${reset}"
 
-clear # Limpar terminal
-
-# Definição de funções
-prepare_environment() {
-    printf "${info}${green}Preparing environment...${reset}\n"
-    cd $HOME
-    [ -d "$HOME/backup" ] || mkdir -p "$HOME/backup"
-    mv $HOME/.config $HOME/.icons $HOME/.local $HOME.themes $HOME/backup
-}
+# Limpar terminal
+clear
 
 install_packages() {
-    printf "${info}${green}Installing required packages...${reset}\n"
+    printf "${info} Installing required packages...\n"
     sleep 2
-    
+
     # Atualiza pacotes e instala wget
     apt update && apt upgrade -y
     apt install -y wget
 
-    # Remove lista antiga e adiciona a nova fonte de repositórios
-    rm $PREFIX/etc/apt/sources.list.d/termux-desktop-xfce.list
+    # Remove e adiciona nova fonte de repositório
+    rm $PREFIX/etc/apt/sources.list.d/termux-desktop-xfce.list 2>/dev/null
     wget -P $PREFIX/etc/apt/sources.list.d https://raw.githubusercontent.com/Yisus7u7/termux-desktop-xfce/gh-pages/termux-desktop-xfce.list
 
-    # Habilita repositórios necessários
+    # Habilita o repositório x11-repo
     apt install -y x11-repo
     apt update
 
-    # Instala XFCE4, Termux-X11 e pacotes adicionais
+    # Instala pacotes necessários
     apt install -y xfce4 xfce4-goodies termux-desktop-xfce breeze-cursor-theme kvantum \
         ttf-microsoft-cascadia audacious leafpad pavucontrol-qt hexchat geany synaptic \
         firefox termux-x11-nightly pulseaudio
 }
 
-installing_xfce4-conf() {
-    printf "${info}${green}Installing xfce4-conf...${reset}\n"
+setup_directories() {
+    printf "${info} Setting up directories...\n"
+    mkdir -p $HOME/.backup
+    mv $HOME/.config $HOME/.backup 2>/dev/null
+    mv $HOME/.vnc $HOME/.backup 2>/dev/null
+    mkdir -p $HOME/Desktop $HOME/Downloads $HOME/Templates $HOME/Public $HOME/Documents $HOME/Pictures $HOME/Videos
+    termux-setup-storage
+    ln -s $HOME/storage/music $HOME/Music
+}
+
+installing_xfce4_conf() {
+    printf "${info} Installing xfce4-conf...\n"
     sleep 2
+
+    # Baixar e extrair arquivos necessários
     cd $HOME
     wget https://github.com/AndersonShelby/xfce4-conf/releases/download/v1.0.2-Alpha-Genesis/XFCE4-Conf.v1.0.2-Alpha-Genesis.tar.gz
-
-    printf "${info}${green}Unpacking dotfiles...${reset}\n"
     tar -xzf XFCE4-Conf.v1.0.2-Alpha-Genesis.tar.gz > /dev/null 2>&1
+
+    # Identificar pasta raiz
+    extracted_dir=$(tar -tzf XFCE4-Conf.v1.0.2-Alpha-Genesis.tar.gz | head -1 | cut -f1 -d"/")
+    cd "$extracted_dir"
+
+    # Mover arquivos
+    mv files/.config $HOME/
+    mv files/.themes $HOME/
+    mv files/.icons $HOME/
+    mv files/.local $HOME/
 }
 
-environment_setup() {
+download_x11_launcher() {
+    printf "${info} Downloading x11 startup script...\n"
+    sleep 2
     cd $HOME
-    mv $HOME/files/.config $HOME/files/.themes $HOME/files/.icons $HOME/files/.local $HOME/
-    
+    wget -O startdesktop https://raw.githubusercontent.com/AndersonShelby/xfce4-conf/refs/heads/master/scripts/X11-launcher/startdesktop
+    chmod +x startdesktop
 }
 
-terminal_conf() {
-    printf "${info}${green}Replacing Zsh configuration...${reset}\n"
-
-    # Move existing .oh-my-zsh and .zshrc to backup
-    [ -d "$HOME/.oh-my-zsh" ] && mv "$HOME/.oh-my-zsh" "$HOME/backup/"
-    [ -f "$HOME/.zshrc" ] && mv "$HOME/.zshrc" "$HOME/backup/"
-
-    # Replace with new configuration
-    [ -d "$HOME/files/.oh-my-zsh" ] && cp -r "$HOME/files/.oh-my-zsh" "$HOME/"
-    [ -f "$HOME/files/.zshrc" ] && cp "$HOME/files/.zshrc" "$HOME/"
-
-    printf "${info}${green}Zsh configuration replaced successfully!${reset}\n"
-}
-
-# Função principal
 main() {
-    # Iniciar funções
-    clear # Limpar terminal
+    clear
     install_packages
-
     clear
-    prepare_environment
-
+    setup_directories
     clear
-    installing_xfce4-conf
-
+    installing_xfce4_conf
     clear
-    environment_setup
-
+#    download_x11_launcher
     clear
-    # Verificar resposta do usuário
-    read -p "Do you want to replace the Zsh configuration? (Y/n): " response
-
-    response=$(echo "$response" | tr '[:upper:]' '[:lower:]')
-
-    if [[ "$response" == "y" || -z "$response" ]]; then
-	    terminal_conf
-    else
-	    printf "${info}${green}Operation canceled.${reset}"
-fi
-
-    # Removendo files
-    rm -rf $HOME/files
-
-    printf "${info}${green}It looks like everything is ready, use ${blue}./startdesktop${green} to start the desktop.${reset}\n"
-
+    printf "${success} Setup completed! Use ${blue}./startdesktop${reset} to start the desktop.\n"
 }
 
-# Chamando a função principal
 main
