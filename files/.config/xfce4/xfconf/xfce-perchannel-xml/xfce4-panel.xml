@@ -116,7 +116,7 @@
         <value type="double" value="0.19215686274509805"/>
         <value type="double" value="1"/>
       </property>
-      <property name="background-style" type="uint" value="2"/>
+      <property name="background-style" type="uint" value="1"/>
       <property name="enable-struts" type="bool" value="true"/>
       <property name="enter-opacity" type="uint" value="100"/>
       <property name="icon-size" type="uint" value="0"/>
@@ -149,7 +149,7 @@
         <value type="double" value="0.19215686274509805"/>
         <value type="double" value="1"/>
       </property>
-      <property name="background-style" type="uint" value="2"/>
+      <property name="background-style" type="uint" value="1"/>
       <property name="enable-struts" type="bool" value="true"/>
       <property name="icon-size" type="uint" value="0"/>
       <property name="length" type="double" value="1"/>
@@ -177,7 +177,7 @@
         <value type="double" value="0.19215686274509805"/>
         <value type="double" value="1"/>
       </property>
-      <property name="background-style" type="uint" value="2"/>
+      <property name="background-style" type="uint" value="1"/>
       <property name="length" type="double" value="4.5"/>
       <property name="length-adjust" type="bool" value="false"/>
       <property name="plugin-ids" type="array">
