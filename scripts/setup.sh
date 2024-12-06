@@ -67,18 +67,18 @@ installing_xfce4_conf() {
 
     # Baixar e extrair arquivos necessários
     cd $HOME
-    wget https://github.com/AndersonShelby/xfce4-conf/releases/download/v1.0.2-Alpha-Genesis/XFCE4-Conf.v1.0.2-Alpha-Genesis.tar.gz
-    tar -xzf XFCE4-Conf.v1.0.2-Alpha-Genesis.tar.gz > /dev/null 2>&1
+    wget https://github.com/AndersonShelby/xfce4-conf/releases/download/v1.0.3-Alpha-Genesis/XFCE4-Conf.v1.0.3-Alpha-Genesis.tar.gz
+    tar -xzf XFCE4-Conf.v1.0.3-Alpha-Genesis.tar.gz > /dev/null 2>&1
 
     # Identificar pasta raiz
     extracted_dir=$(tar -tzf XFCE4-Conf.v1.0.2-Alpha-Genesis.tar.gz | head -1 | cut -f1 -d"/")
     cd "$extracted_dir"
 
     # Mover arquivos
-    mv files/.config $HOME/
-    mv files/.themes $HOME/
-    mv files/.icons $HOME/
-    mv files/.local $HOME/
+#    mv files/.config $HOME/
+#    mv files/.themes $HOME/
+#    mv files/.icons $HOME/
+#    mv files/.local $HOME/
 }
 
 download_x11_launcher() {
