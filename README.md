@@ -19,7 +19,7 @@
 > Note: I will soon bring support for other Linux distributions.
 
 > [!CAUTION]
-> This project is still under development, and may contain bugs.
+> This project is still under development and may contain bugs.
 
 ---
 
