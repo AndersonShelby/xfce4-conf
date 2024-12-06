@@ -97,9 +97,9 @@ main() {
     clear
     installing_xfce4_conf
     clear
-    download_x11_launcher
+#   download_x11_launcher
     clear
-    printf "${success} Setup completed! Use ${blue}./startdesktop${reset} to start the desktop.\n"
+    printf "${success} Setup completed!\n"
 }
 
 main
