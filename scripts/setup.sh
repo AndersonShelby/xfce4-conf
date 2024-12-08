@@ -57,17 +57,48 @@ install_packages() {
     sleep 2
 
     # Atualiza pacotes e instala wget
-    apt update && apt upgrade -y
-    apt install -y wget
+    pkg update && apt upgrade -y
+    pkg install -y wget
 
     # Habilita o repositório x11-repo
-    apt install -y x11-repo
-    apt update
+    pkg install -y x11-repo
+    pkg update
 
     # Instala pacotes necessários
-    apt install -y xfce4 xfce4-goodies termux-desktop-xfce breeze-cursor-theme kvantum \
-        ttf-microsoft-cascadia audacious leafpad pavucontrol-qt hexchat geany synaptic \
-        firefox termux-x11-nightly pulseaudio
+
+# Lista de pacotes necessários
+packages=(
+    xfce4
+    xfce4-goodies
+    termux-desktop-xfce
+    breeze-cursor-theme
+    kvantum
+    ttf-microsoft-cascadia
+    audacious
+    leafpad
+    pavucontrol-qt
+    hexchat
+    geany
+    synaptic
+    firefox
+    termux-x11-nightly
+    tur-repo
+    pulseaudio
+)
+
+# Loop para instalar cada pacote
+for package in "${packages[@]}"; do
+    echo "Installing $package..."
+    if pkg install -y "$package"; then
+        printf "${success}${yellow}$package ${green}installed successfully!${reset}\n"
+    else
+        printf "${error}${red}Failed to install ${yellow}$package. ${red}Exiting...${reset}\n"
+        exit 1
+    fi
+done
+
+printf "${success}${green}All packages installed successfully!${reset}\n"
+
 }
 
 setup_directories() {
