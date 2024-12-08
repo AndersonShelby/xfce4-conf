@@ -121,16 +121,12 @@ installing_xfce4_conf() {
     # Baixar e extrair arquivos necessários
     cd $HOME
     
-    wget https://github.com/AndersonShelby/xfce4-conf/releases/download/v1.0.3-Alpha-Genesis/XFCE4-Conf.v1.0.3-Alpha-Genesis.tar.gz
-    
     if wget https://github.com/AndersonShelby/xfce4-conf/releases/download/v1.0.3-Alpha-Genesis/XFCE4-Conf.v1.0.3-Alpha-Genesis.tar.gz; then
     printf "${success}${green}Download completed successfully!${reset}\n"
 else
     printf "${error}${red}Failed to download ${yellow}XFCE4-Conf. ${red}Exiting...${reset}\n"
     exit 1
 fi
-
-   tar -xzf XFCE4-Conf.v1.0.3-Alpha-Genesis.tar.gz 2>/dev/null
 
 if tar -xzf XFCE4-Conf.v1.0.3-Alpha-Genesis.tar.gz > /dev/null 2>&1; then
     echo "${success}${green}Extraction completed successfully!${reset}\n"
