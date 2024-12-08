@@ -120,18 +120,25 @@ installing_xfce4_conf() {
 
     # Baixar e extrair arquivos necessários
     cd $HOME
+    
     wget https://github.com/AndersonShelby/xfce4-conf/releases/download/v1.0.3-Alpha-Genesis/XFCE4-Conf.v1.0.3-Alpha-Genesis.tar.gz
-    tar -xzf XFCE4-Conf.v1.0.3-Alpha-Genesis.tar.gz > /dev/null 2>&1
+    
+    if wget https://github.com/AndersonShelby/xfce4-conf/releases/download/v1.0.3-Alpha-Genesis/XFCE4-Conf.v1.0.3-Alpha-Genesis.tar.gz; then
+    printf "${success}${green}Download completed successfully!${reset}\n"
+else
+    printf "${error}${red}Failed to download ${yellow}XFCE4-Conf. ${red}Exiting...${reset}\n"
+    exit 1
+fi
 
-    # Identificar pasta raiz
-#   extracted_dir=$(tar -tzf XFCE4-Conf.v1.0.3-Alpha-Genesis.tar.gz | head -1 | cut -f1 -d"/")
-#   cd "$extracted_dir"
+   tar -xzf XFCE4-Conf.v1.0.3-Alpha-Genesis.tar.gz 2>/dev/null
 
-    # Mover arquivos
-#   mv files/.config $HOME/
-#   mv files/.themes $HOME/
-#   mv files/.icons $HOME/
-#   mv files/.local $HOME/
+if tar -xzf XFCE4-Conf.v1.0.3-Alpha-Genesis.tar.gz > /dev/null 2>&1; then
+    echo "${success}${green}Extraction completed successfully!${reset}\n"
+else
+    printf "${error}${red}Failed to extract files. Exiting...${reset}\n"
+    exit 1
+fi
+
 }
 
 download_x11_launcher() {
