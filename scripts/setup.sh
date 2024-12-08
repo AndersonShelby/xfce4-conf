@@ -29,17 +29,36 @@ error="${red}[!]${reset}"
 # Limpar terminal
 clear
 
+update_repository() {
+    printf "${info}${green}Updating repository list for termux-desktop-xfce...${reset}\n"
+    sleep 2
+    
+    # Caminho do repositório
+    repo_path="$PREFIX/etc/apt/sources.list.d/termux-desktop-xfce.list"
+    repo_url="https://raw.githubusercontent.com/Yisus7u7/termux-desktop-xfce/gh-pages/termux-desktop-xfce.list"
+
+    # Remove a fonte de repositório antiga, se existir
+    if [ -f "$repo_path" ]; then
+        printf "${info}${green}Removing old repository file...${reset}\n"
+        rm "$repo_path" 2>/dev/null || { printf "${error}${red}Failed to remove old repository file.${reset}"; exit 1; }
+    else
+        printf "${error}${red}No old repository file found.${reset}\n"
+    fi
+
+    # Baixa a nova fonte de repositório
+    echo "Downloading new repository file..."
+    wget -P "$PREFIX/etc/apt/sources.list.d" "$repo_url" || { echo "Failed to download new repository file."; exit 1; }
+
+    printf "${success}${green}Repository list updated successfully!${reset}\n"
+}
+
 install_packages() {
-    printf "${info} Installing required packages...\n"
+    printf "${info}${green}Installing required packages...${reset}\n"
     sleep 2
 
     # Atualiza pacotes e instala wget
     apt update && apt upgrade -y
     apt install -y wget
-
-    # Remove e adiciona nova fonte de repositório
-    rm $PREFIX/etc/apt/sources.list.d/termux-desktop-xfce.list 2>/dev/null
-    wget -P $PREFIX/etc/apt/sources.list.d https://raw.githubusercontent.com/Yisus7u7/termux-desktop-xfce/gh-pages/termux-desktop-xfce.list
 
     # Habilita o repositório x11-repo
     apt install -y x11-repo
@@ -54,8 +73,12 @@ install_packages() {
 setup_directories() {
     printf "${info} Setting up directories...\n"
     mkdir -p $HOME/.backup
-    mv $HOME/.config $HOME/.backup 2>/dev/null
-    mv $HOME/.vnc $HOME/.backup 2>/dev/null
+    mv $HOME/.config $HOME/.backup/ 2>/dev/null
+    mv $HOME/.local $HOME/.backup/ 2>/dev/null
+    mv $HOME/.themes $HOME/.backup/ 2>/dev/null
+    mv $HOME/.icons $HOME/.backup/ 2>/dev/null
+    mv $HOME/.zshrc $HOME/.backup/ 2>/dev/null
+    mv $HOME/.oh-my-zsh $HOME/.backup/ 2>/dev/null
     mkdir -p $HOME/Desktop $HOME/Downloads $HOME/Templates $HOME/Public $HOME/Documents $HOME/Pictures $HOME/Videos
     termux-setup-storage
     ln -s $HOME/storage/music $HOME/Music
@@ -71,8 +94,8 @@ installing_xfce4_conf() {
     tar -xzf XFCE4-Conf.v1.0.3-Alpha-Genesis.tar.gz > /dev/null 2>&1
 
     # Identificar pasta raiz
-    extracted_dir=$(tar -tzf XFCE4-Conf.v1.0.2-Alpha-Genesis.tar.gz | head -1 | cut -f1 -d"/")
-    cd "$extracted_dir"
+#   extracted_dir=$(tar -tzf XFCE4-Conf.v1.0.3-Alpha-Genesis.tar.gz | head -1 | cut -f1 -d"/")
+#   cd "$extracted_dir"
 
     # Mover arquivos
 #   mv files/.config $HOME/
@@ -90,6 +113,8 @@ download_x11_launcher() {
 }
 
 main() {
+    clear
+    update_repository
     clear
     install_packages
     clear
