@@ -71,7 +71,7 @@ install_packages() {
 }
 
 setup_directories() {
-    printf "${info} Setting up directories...\n"
+    printf "${info}${green}Setting up directories...${reset}\n"
     mkdir -p $HOME/.backup
     mv $HOME/.config $HOME/.backup/ 2>/dev/null
     mv $HOME/.local $HOME/.backup/ 2>/dev/null
@@ -85,7 +85,7 @@ setup_directories() {
 }
 
 installing_xfce4_conf() {
-    printf "${info} Installing xfce4-conf...\n"
+    printf "${info}${green}Installing xfce4-conf...${reset}\n"
     sleep 2
 
     # Baixar e extrair arquivos necessários
@@ -105,7 +105,7 @@ installing_xfce4_conf() {
 }
 
 download_x11_launcher() {
-    printf "${info} Downloading x11 startup script...\n"
+    printf "${info}${green}Downloading x11 startup script...${reset}\n"
     sleep 2
     cd $HOME
     wget -O startdesktop https://raw.githubusercontent.com/AndersonShelby/xfce4-conf/refs/heads/master/scripts/X11-launcher/startdesktop
@@ -124,7 +124,7 @@ main() {
     clear
 #   download_x11_launcher
     clear
-    printf "${success} Setup completed!\n"
+    printf "${success} ${green}Setup completed!${reset}\n"
 }
 
 main
