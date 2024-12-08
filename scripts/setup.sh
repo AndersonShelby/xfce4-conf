@@ -87,7 +87,7 @@ packages=(
 
 # Loop para instalar cada pacote
 for package in "${packages[@]}"; do
-    echo "Installing $package..."
+    printf "${info}${green}Installing ${yellow}$package${green}...${reset}\n"
     if pkg install -y "$package"; then
         printf "${success}${yellow}$package ${green}installed successfully!${reset}\n"
     else
