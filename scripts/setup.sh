@@ -62,8 +62,8 @@ install_packages() {
 
     # Habilita o repositório x11-repo
     pkg install -y x11-repo
-    pkg update
 
+    pkg install -y tur-repo || { echo "Failed to install tur-repo."; exit 1; }
     # Instala pacotes necessários
 
 # Lista de pacotes necessários
@@ -82,7 +82,6 @@ packages=(
     synaptic
     firefox
     termux-x11-nightly
-    tur-repo
     pulseaudio
 )
 
